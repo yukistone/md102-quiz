@@ -9,6 +9,9 @@ export default function QuizApp() {
   const [selectedLetters, setSelectedLetters] = useState<string[]>([]);
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
+  
+  // ジャンプ機能用の状態（入力された数字を保持）
+  const [jumpInput, setJumpInput] = useState("");
 
   const currentQ = quizData[currentIndex];
   // 答えの文字数で「単一選択」か「複数選択」かを判定
@@ -35,7 +38,7 @@ export default function QuizApp() {
   const handleCheckAnswer = () => {
     if (selectedLetters.length === 0) return;
 
-    // ユーザーの回答と正解をアルファベット順にソートして比較（例："BAC" -> "ABC"）
+    // ユーザーの回答と正解をアルファベット順にソートして比較
     const userAnswer = selectedLetters.sort().join("");
     const correctAnswer = currentQ.answer.split("").sort().join("");
     
@@ -52,29 +55,71 @@ export default function QuizApp() {
     }
   };
 
+  // 指定した問題番号へジャンプする処理
+  const handleJump = (e: React.FormEvent) => {
+    e.preventDefault(); // フォーム送信時のページリロードを防ぐ
+    const targetNum = parseInt(jumpInput, 10);
+    
+    // 入力値が正しい範囲内かチェック（1 ～ 問題の総数）
+    if (!isNaN(targetNum) && targetNum >= 1 && targetNum <= quizData.length) {
+      // idは1から始まるが、配列のインデックスは0から始まるので -1 する
+      const targetIndex = quizData.findIndex(q => q.id === targetNum);
+      if (targetIndex !== -1) {
+        setCurrentIndex(targetIndex);
+        setSelectedLetters([]);
+        setShowResult(false);
+        setJumpInput(""); // 入力欄をクリア
+      }
+    } else {
+      alert(`1から${quizData.length}までの数字を入力してください。`);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 p-4 md:p-8 font-sans">
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6">
         
         {/* ヘッダー：進捗と問題番号 */}
-        <div className="flex justify-between items-center mb-6 border-b pb-4">
+        <div className="flex justify-between items-start mb-6 border-b pb-4">
           <div className="flex items-center space-x-4">
             <div className="border-2 border-gray-200 rounded-lg p-3 text-center min-w-[80px]">
               <div className="text-xs text-gray-500 mb-1">問題番号</div>
               <div className="text-2xl font-bold">{currentQ.id}</div>
             </div>
-            <div className="text-sm text-gray-500">
-              進捗: {currentIndex + 1} / {quizData.length}
+            
+            <div className="flex flex-col space-y-2">
+              <div className="text-sm text-gray-500 font-medium">
+                進捗: {currentIndex + 1} / {quizData.length}
+              </div>
+              {/* ジャンプ機能の入力フォーム */}
+              <form onSubmit={handleJump} className="flex items-center space-x-2">
+                <input
+                  type="number"
+                  min={1}
+                  max={quizData.length}
+                  value={jumpInput}
+                  onChange={(e) => setJumpInput(e.target.value)}
+                  placeholder="番号"
+                  className="border border-gray-300 rounded px-2 py-1 w-20 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                />
+                <button
+                  type="submit"
+                  className="bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm px-3 py-1 rounded transition-colors font-medium border border-gray-200"
+                >
+                  ジャンプ
+                </button>
+              </form>
             </div>
           </div>
+          
           {isMultiSelect && (
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">
+            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full mt-2">
               複数選択 ({currentQ.answer.length}つ)
             </span>
           )}
         </div>
 
-        {/* 問題文 (改行コード \n を <br /> に変換して表示) */}
+        {/* 問題文 */}
         <div className="text-lg text-gray-800 mb-8 leading-relaxed">
           {currentQ.question.split("\n").map((line, i) => (
             <span key={i}>
@@ -88,7 +133,6 @@ export default function QuizApp() {
         <div className="space-y-3 mb-8">
           {currentQ.choices.map((choice) => {
             const isSelected = selectedLetters.includes(choice.letter);
-            // 結果表示時の色分けロジック
             let bgColor = "bg-white hover:bg-gray-50";
             let borderColor = isSelected ? "border-blue-500" : "border-gray-300";
 
@@ -119,7 +163,7 @@ export default function QuizApp() {
           })}
         </div>
 
-        {/* 画像エリア（選択肢の下） */}
+        {/* 画像エリア */}
         {currentQ.images && currentQ.images.length > 0 && (
           <div className="mb-8 space-y-4">
             <p className="text-sm font-bold text-gray-500">【参考画像】</p>
