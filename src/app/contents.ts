@@ -12,7 +12,8 @@ export interface QuizItem {
 }
 
 export const quizData: QuizItem[] = [
-      "id": 1,
+  {  
+    "id": 1,
     "question": "Microsoft 365 E5 サブスクリプションがあり、Microsoft Intune に登録されている iOS デバイスが 100 台あります。Intune を使用して、これらのデバイスにカスタム基幹業務 (LOB) アプリを展開する必要があります。アプリ パッケージ ファイルにはどの拡張子を選択すればよいですか？",
     "choices": [
       {
