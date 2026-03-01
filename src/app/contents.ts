@@ -12,9 +12,8 @@ export interface QuizItem {
 }
 
 export const quizData: QuizItem[] = [
-  {
-    "id": 1,
-    "question": "Microsoft 365 E5 サブスクリプションがあり、Microsoft Intune に登録されている iOS デバイスが 100 台あります。Intune を使用して、これらのデバイスにカスタム基幹業務 (LOB) アプリを展開する必要があります。アプリ パッケージ ファイルにはどの拡張子を選択すればよいですか？ A. .intunemac B. .ipa C. .apk D. .appx 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+      "id": 1,
+    "question": "Microsoft 365 E5 サブスクリプションがあり、Microsoft Intune に登録されている iOS デバイスが 100 台あります。Intune を使用して、これらのデバイスにカスタム基幹業務 (LOB) アプリを展開する必要があります。アプリ パッケージ ファイルにはどの拡張子を選択すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -22,7 +21,7 @@ export const quizData: QuizItem[] = [
       },
       {
         "letter": "B",
-        "text": "。暴力"
+        "text": ".ipa"
       },
       {
         "letter": "C",
@@ -38,7 +37,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 2,
-    "question": "Microsoft 365 サブスクリプションを所有しています。Windows 10 を実行し、モバイルデバイス管理 (MDM) に登録されているコンピューターが 10 台あります。Microsoft 365 Apps for enterprise スイートをすべてのコンピューターに展開する必要があります。どうすればよいでしょうか? A. Microsoft Intune 管理センターから Windows 10 デバイス プロファイルを作成します。B. Azure AD からアプリ登録を追加します。C. Azure AD からエンタープライズ アプリケーションを追加します。D. Microsoft Intune 管理センターからアプリを追加します。 回答の候補を表示 回答を非表示 回答の候補: D 🗳️",
+    "question": "Microsoft 365 サブスクリプションを所有しています。Windows 10 を実行し、モバイルデバイス管理 (MDM) に登録されているコンピューターが 10 台あります。Microsoft 365 Apps for enterprise スイートをすべてのコンピューターに展開する必要があります。どうすればよいでしょうか?",
     "choices": [
       {
         "letter": "A",
@@ -62,7 +61,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 3,
-    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションを所有しています。デバイス管理には Microsoft Intune を使用しています。Intune に登録されている Device1 という Windows 11 デバイスがあります。Device1 は 30 日間オフラインになっています。Intune から Device1 を直ちに削除する必要があります。このソリューションでは、デバイスが再度チェックインしたときに、Intune によってプロビジョニングされたアプリとデータがすべて削除されるようにする必要があります。ユーザーがインストールしたアプリ、個人データ、および OEM がインストールしたアプリは保持する必要があります。どのアクションを使用すればよいですか? A. 削除アクション B. 廃止アクション C. 新たに開始アクション D. オートパイロット リセットアクション 回答の候補を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションを所有しています。デバイス管理には Microsoft Intune を使用しています。Intune に登録されている Device1 という Windows 11 デバイスがあります。Device1 は 30 日間オフラインになっています。Intune から Device1 を直ちに削除する必要があります。このソリューションでは、デバイスが再度チェックインしたときに、Intune によってプロビジョニングされたアプリとデータがすべて削除されるようにする必要があります。ユーザーがインストールしたアプリ、個人データ、および OEM がインストールしたアプリは保持する必要があります。どのアクションを使用すればよいですか?",
     "choices": [
       {
         "letter": "A",
@@ -110,7 +109,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 5,
-    "question": "ネットワークにはオンプレミスの Active Directory ドメインと Azure AD テナントが含まれています。Default Domain Policy のグループ ポリシー オブジェクト (GPO) には、次の表に示す設定が含まれています。既存の Default Domain Policy の GPO 設定をデバイス構成プロファイルに移行する必要があります。どの種類のデバイス構成プロファイル テンプレートを使用すればよいですか？ A. 管理用テンプレート B. エンドポイント保護 C. デバイス制限 D. カスタム 回答を表示 回答を非表示 回答の候補: C 🗳️",
+    "question": "ネットワークにはオンプレミスの Active Directory ドメインと Azure AD テナントが含まれています。Default Domain Policy のグループ ポリシー オブジェクト (GPO) には、次の表に示す設定が含まれています。既存の Default Domain Policy の GPO 設定をデバイス構成プロファイルに移行する必要があります。どの種類のデバイス構成プロファイル テンプレートを使用すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -159,7 +158,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 7,
-    "question": "150台のハイブリッドAzure AD参加済みWindowsデバイスを含むMicrosoft 365 E5サブスクリプションがあります。すべてのデバイスはMicrosoft Intuneに登録されています。デバイスで配信の最適化を構成し、次の要件を満たす必要があります。インターネットからのダウンロードとローカルネットワーク上の他のコンピューターからのダウンロードを許可します。使用帯域幅の割合を50%に制限します。何を使用すればよいですか？A. 構成プロファイル B. Windows Update for Businessグループポリシー設定 C. Microsoft Peer-to-Peer Networking Servicesグループポリシー設定 D. Windows 10以降の更新リングプロファイル 回答を表示 回答を隠す 回答の候補: A 🗳️",
+    "question": "150台のハイブリッドAzure AD参加済みWindowsデバイスを含むMicrosoft 365 E5サブスクリプションがあります。すべてのデバイスはMicrosoft Intuneに登録されています。デバイスで配信の最適化を構成し、次の要件を満たす必要があります。インターネットからのダウンロードとローカルネットワーク上の他のコンピューターからのダウンロードを許可します。使用帯域幅の割合を50%に制限します。何を使用すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -183,7 +182,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 8,
-    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションを所有しています。デバイス管理には Microsoft Intune を使用しています。すべての Windows デバイスに App1 と App2 という 2 つのアプリを展開する予定です。App1 は App2 より先にインストールする必要があります。Intune 管理センターから、2 つの Windows アプリ (Win32) を作成して展開します。すべてのデバイスで、App1 が App2 より先にインストールされていることを確認する必要があります。何を構成する必要がありますか? A. App1 の展開構成 B. 動的デバイスグループ C. 検出ルール D. App2 の展開構成 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションを所有しています。デバイス管理には Microsoft Intune を使用しています。すべての Windows デバイスに App1 と App2 という 2 つのアプリを展開する予定です。App1 は App2 より先にインストールする必要があります。Intune 管理センターから、2 つの Windows アプリ (Win32) を作成して展開します。すべてのデバイスで、App1 が App2 より先にインストールされていることを確認する必要があります。何を構成する必要がありますか?",
     "choices": [
       {
         "letter": "A",
@@ -207,7 +206,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 9,
-    "question": "ケース スタディ - 概要 - ADatum Corporation は、モントリオールに本社、シアトルとニューヨークに支社を持つコンサルティング会社です。ADatum は、Microsoft 365 E5 サブスクリプションを所有しています。環境 - ネットワーク環境 - ネットワークには、adatum.com という名前のオンプレミスの Active Directory ドメインが含まれています。このドメインには、次の表に示すサーバーが含まれています。ADatum には、adatum.com という名前のハイブリッド Azure AD テナントがあります。ユーザーとグループ - adatum.com テナントには、次の表に示すユーザーが含まれています。すべてのユーザーには、Microsoft Office 365 ライセンスと Enterprise Mobility + Security E3 ライセンスが割り当てられています。Group1 と GroupA では、Enterprise State Roaming が有効になっています。Group1 と Group2 のメンバーシップの種類は割り当て済みです。デバイス - ADatum には、次の表に示す Windows 10 デバイスがあります。Windows 10 デバイスは、Azure AD に参加しており、Microsoft Intune に登録されています。すべての Azure AD 参加済みデバイスには、C:\\AppA.exe という実行可能ファイルと、D:\\Folder1 というフォルダーがあります。 Microsoft Intune の構成 - Microsoft Intune には、次の表に示すコンプライアンス ポリシーがあります。 自動登録設定には、次の構成があります: MDM ユーザー スコープ: GroupA - MAM ユーザー スコープ: GroupB - 次の制御されたフォルダー アクセス設定を持つエンドポイント保護構成プロファイルがあります: 名前: Protection1 - フォルダー保護: 有効 - 保護されたフォルダーにアクセスできるアプリの一覧: C:\\*\\AppA.exe 保護する必要がある追加のフォルダーの一覧: D:\\Folder1 割り当て: 含まれるグループ: Group2、GroupB - Windows Autopilot の構成 - ADatum には、次の図に示すように Windows Autopilot 展開プロファイルが構成されています。 現在、Windows Autopilot を使用して展開されているデバイスはありません。要件 - 計画されている変更 - ADatum は次の変更を実装する予定です: Device6 という名前の新しい Windows 10 デバイスを購入し、デバイスを Intune に登録します。 新しいコンピューターは、Windows Autopilot を使用して展開され、ハイブリッド Azure AD 参加済みになります。 次の設定を持つネットワーク境界構成プロファイルを展開しました: 名前: Boundary1 - ネットワーク境界: 192.168.1.0/24 スコープ タグ: Tag1 - 割り当て: 含まれるグループ: Group1、Group2 - 次の設定を持つ Connection1 および Connection2 という名前の 2 つの VPN 構成プロファイルを展開します: 名前: Connection1 - 接続名: VPN1 - 接続の種類: L2TP - 割り当て: 含まれるグループ: Group1、Group2、GroupA 除外されるグループ: -- 名前: Connection2 - 接続名: VPN2 - 接続の種類: IKEv2 - 割り当て: 含まれるグループ: GroupA - 除外されるグループ: GroupB - 技術要件 - ADatum は次の技術要件を満たしている必要があります: GroupA のユーザーは、新しいコンピューターを展開できる必要があります計画された変更に基づいて Boundary1 を実装します。192.168.1.0/24 のネットワーク境界が適用されているデバイスはどれですか? A. デバイス 2 のみ B. デバイス 3 のみ C. デバイス 1、デバイス 2、デバイス 5 のみ D. デバイス 1、デバイス 2、デバイス 3、デバイス 4 のみ 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "ケース スタディ - 概要 - ADatum Corporation は、モントリオールに本社、シアトルとニューヨークに支社を持つコンサルティング会社です。ADatum は、Microsoft 365 E5 サブスクリプションを所有しています。環境 - ネットワーク環境 - ネットワークには、adatum.com という名前のオンプレミスの Active Directory ドメインが含まれています。このドメインには、次の表に示すサーバーが含まれています。ADatum には、adatum.com という名前のハイブリッド Azure AD テナントがあります。ユーザーとグループ - adatum.com テナントには、次の表に示すユーザーが含まれています。すべてのユーザーには、Microsoft Office 365 ライセンスと Enterprise Mobility + Security E3 ライセンスが割り当てられています。Group1 と GroupA では、Enterprise State Roaming が有効になっています。Group1 と Group2 のメンバーシップの種類は割り当て済みです。デバイス - ADatum には、次の表に示す Windows 10 デバイスがあります。Windows 10 デバイスは、Azure AD に参加しており、Microsoft Intune に登録されています。すべての Azure AD 参加済みデバイスには、C:\\AppA.exe という実行可能ファイルと、D:\\Folder1 というフォルダーがあります。 Microsoft Intune の構成 - Microsoft Intune には、次の表に示すコンプライアンス ポリシーがあります。 自動登録設定には、次の構成があります: MDM ユーザー スコープ: GroupA - MAM ユーザー スコープ: GroupB - 次の制御されたフォルダー アクセス設定を持つエンドポイント保護構成プロファイルがあります: 名前: Protection1 - フォルダー保護: 有効 - 保護されたフォルダーにアクセスできるアプリの一覧: C:\\*\\AppA.exe 保護する必要がある追加のフォルダーの一覧: D:\\Folder1 割り当て: 含まれるグループ: Group2、GroupB - Windows Autopilot の構成 - ADatum には、次の図に示すように Windows Autopilot 展開プロファイルが構成されています。 現在、Windows Autopilot を使用して展開されているデバイスはありません。要件 - 計画されている変更 - ADatum は次の変更を実装する予定です: Device6 という名前の新しい Windows 10 デバイスを購入し、デバイスを Intune に登録します。 新しいコンピューターは、Windows Autopilot を使用して展開され、ハイブリッド Azure AD 参加済みになります。 次の設定を持つネットワーク境界構成プロファイルを展開しました: 名前: Boundary1 - ネットワーク境界: 192.168.1.0/24 スコープ タグ: Tag1 - 割り当て: 含まれるグループ: Group1、Group2 - 次の設定を持つ Connection1 および Connection2 という名前の 2 つの VPN 構成プロファイルを展開します: 名前: Connection1 - 接続名: VPN1 - 接続の種類: L2TP - 割り当て: 含まれるグループ: Group1、Group2、GroupA 除外されるグループ: -- 名前: Connection2 - 接続名: VPN2 - 接続の種類: IKEv2 - 割り当て: 含まれるグループ: GroupA - 除外されるグループ: GroupB - 技術要件 - ADatum は次の技術要件を満たしている必要があります: GroupA のユーザーは、新しいコンピューターを展開できる必要があります計画された変更に基づいて Boundary1 を実装します。192.168.1.0/24 のネットワーク境界が適用されているデバイスはどれですか?",
     "choices": [
       {
         "letter": "A",
@@ -289,7 +288,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 11,
-    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをご利用です。デバイス管理には Microsoft Intune を使用しています。デバイスの起動時間と再起動頻度を確認する必要があります。どのツールを使用すればよいでしょうか？ A. Azure Monitor B. Intune Data Warehouse C. Microsoft Defender for Endpoint D. Endpoint Analytics 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをご利用です。デバイス管理には Microsoft Intune を使用しています。デバイスの起動時間と再起動頻度を確認する必要があります。どのツールを使用すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -313,7 +312,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 12,
-    "question": "ドラッグ＆ドロップ - Microsoft Intune を含む Microsoft 365 サブスクリプションをお持ちです。以下の要件を満たす Microsoft Defender for Endpoint ソリューションを実装する必要があります。条件付きアクセスを使用して Defender for Endpoint のコンプライアンスを強制する デバイス上で疑わしいスクリプトの実行を防止する 何を構成する必要がありますか？ 回答するには、適切な機能を正しい要件にドラッグしてください。各機能は、1 回、複数回、またはまったく使用されない場合があります。コンテンツを表示するには、ペイン間の分割バーをドラッグするか、スクロールする必要がある場合があります。注: 正しい選択ごとに 1 ポイントが付与されます。 回答の候補を表示 回答を非表示 回答の候補:",
+    "question": "ドラッグ＆ドロップ - Microsoft Intune を含む Microsoft 365 サブスクリプションをお持ちです。以下の要件を満たす Microsoft Defender for Endpoint ソリューションを実装する必要があります。条件付きアクセスを使用して Defender for Endpoint のコンプライアンスを強制する デバイス上で疑わしいスクリプトの実行を防止する 何を構成する必要がありますか？ 回答するには、適切な機能を正しい要件にドラッグしてください。各機能は、1 回、複数回、またはまったく使用されない場合があります。コンテンツを表示するには、ペイン間の分割バーをドラッグするか、スクロールする必要がある場合があります。注: 正しい選択ごとに 1 ポイントが付与されます。",
     "choices": [],
     "answer": "",
     "images": [
@@ -345,7 +344,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 14,
-    "question": "ケース スタディ - 概要 - ADatum Corporation は、モントリオールに本社、シアトルとニューヨークに支社を持つコンサルティング会社です。ADatum は、Microsoft 365 E5 サブスクリプションを所有しています。環境 - ネットワーク環境 - ネットワークには、adatum.com という名前のオンプレミスの Active Directory ドメインが含まれています。このドメインには、次の表に示すサーバーが含まれています。ADatum には、adatum.com という名前のハイブリッド Azure AD テナントがあります。ユーザーとグループ - adatum.com テナントには、次の表に示すユーザーが含まれています。すべてのユーザーには、Microsoft Office 365 ライセンスと Enterprise Mobility + Security E3 ライセンスが割り当てられています。Group1 と GroupA では、Enterprise State Roaming が有効になっています。Group1 と Group2 のメンバーシップの種類は割り当て済みです。デバイス - ADatum には、次の表に示す Windows 10 デバイスがあります。Windows 10 デバイスは、Azure AD に参加しており、Microsoft Intune に登録されています。すべての Azure AD 参加済みデバイスには、C:\\AppA.exe という実行可能ファイルと、D:\\Folder1 というフォルダーがあります。 Microsoft Intune の構成 - Microsoft Intune には、次の表に示すコンプライアンス ポリシーがあります。 自動登録設定には、次の構成があります: MDM ユーザー スコープ: GroupA - MAM ユーザー スコープ: GroupB - 次の制御されたフォルダー アクセス設定を持つエンドポイント保護構成プロファイルがあります: 名前: Protection1 - フォルダー保護: 有効 - 保護されたフォルダーにアクセスできるアプリの一覧: C:\\*\\AppA.exe 保護する必要がある追加のフォルダーの一覧: D:\\Folder1 割り当て: 含まれるグループ: Group2、GroupB - Windows Autopilot の構成 - ADatum には、次の図に示すように Windows Autopilot 展開プロファイルが構成されています。 現在、Windows Autopilot を使用して展開されているデバイスはありません。要件 - 計画されている変更 - ADatum は次の変更を実装する予定です: Device6 という名前の新しい Windows 10 デバイスを購入し、デバイスを Intune に登録します。 新しいコンピューターは、Windows Autopilot を使用して展開され、ハイブリッド Azure AD 参加済みになります。 次の設定を持つネットワーク境界構成プロファイルを展開しました: 名前: Boundary1 - ネットワーク境界: 192.168.1.0/24 スコープ タグ: Tag1 - 割り当て: 含まれるグループ: Group1、Group2 - 次の設定を持つ Connection1 および Connection2 という名前の 2 つの VPN 構成プロファイルを展開します: 名前: Connection1 - 接続名: VPN1 - 接続の種類: L2TP - 割り当て: 含まれるグループ: Group1、Group2、GroupA 除外されるグループ: -- 名前: Connection2 - 接続名: VPN2 - 接続の種類: IKEv2 - 割り当て: 含まれるグループ: GroupA - 除外されるグループ: GroupB - 技術要件 - ADatum は次の技術要件を満たしている必要があります: GroupA のユーザーは、新しいコンピューターを展開できる必要がありますWindows Autopilot 展開サービスを使用して登録されるデバイスはどれですか? A.デバイス1のみ B. デバイス3のみ C. デバイス1とデバイス3のみ D. デバイス1、デバイス2、デバイス3 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "ケース スタディ - 概要 - ADatum Corporation は、モントリオールに本社、シアトルとニューヨークに支社を持つコンサルティング会社です。ADatum は、Microsoft 365 E5 サブスクリプションを所有しています。環境 - ネットワーク環境 - ネットワークには、adatum.com という名前のオンプレミスの Active Directory ドメインが含まれています。このドメインには、次の表に示すサーバーが含まれています。ADatum には、adatum.com という名前のハイブリッド Azure AD テナントがあります。ユーザーとグループ - adatum.com テナントには、次の表に示すユーザーが含まれています。すべてのユーザーには、Microsoft Office 365 ライセンスと Enterprise Mobility + Security E3 ライセンスが割り当てられています。Group1 と GroupA では、Enterprise State Roaming が有効になっています。Group1 と Group2 のメンバーシップの種類は割り当て済みです。デバイス - ADatum には、次の表に示す Windows 10 デバイスがあります。Windows 10 デバイスは、Azure AD に参加しており、Microsoft Intune に登録されています。すべての Azure AD 参加済みデバイスには、C:\\AppA.exe という実行可能ファイルと、D:\\Folder1 というフォルダーがあります。 Microsoft Intune の構成 - Microsoft Intune には、次の表に示すコンプライアンス ポリシーがあります。 自動登録設定には、次の構成があります: MDM ユーザー スコープ: GroupA - MAM ユーザー スコープ: GroupB - 次の制御されたフォルダー アクセス設定を持つエンドポイント保護構成プロファイルがあります: 名前: Protection1 - フォルダー保護: 有効 - 保護されたフォルダーにアクセスできるアプリの一覧: C:\\*\\AppA.exe 保護する必要がある追加のフォルダーの一覧: D:\\Folder1 割り当て: 含まれるグループ: Group2、GroupB - Windows Autopilot の構成 - ADatum には、次の図に示すように Windows Autopilot 展開プロファイルが構成されています。 現在、Windows Autopilot を使用して展開されているデバイスはありません。要件 - 計画されている変更 - ADatum は次の変更を実装する予定です: Device6 という名前の新しい Windows 10 デバイスを購入し、デバイスを Intune に登録します。 新しいコンピューターは、Windows Autopilot を使用して展開され、ハイブリッド Azure AD 参加済みになります。 次の設定を持つネットワーク境界構成プロファイルを展開しました: 名前: Boundary1 - ネットワーク境界: 192.168.1.0/24 スコープ タグ: Tag1 - 割り当て: 含まれるグループ: Group1、Group2 - 次の設定を持つ Connection1 および Connection2 という名前の 2 つの VPN 構成プロファイルを展開します: 名前: Connection1 - 接続名: VPN1 - 接続の種類: L2TP - 割り当て: 含まれるグループ: Group1、Group2、GroupA 除外されるグループ: -- 名前: Connection2 - 接続名: VPN2 - 接続の種類: IKEv2 - 割り当て: 含まれるグループ: GroupA - 除外されるグループ: GroupB - 技術要件 - ADatum は次の技術要件を満たしている必要があります: GroupA のユーザーは、新しいコンピューターを展開できる必要がありますWindows Autopilot 展開サービスを使用して登録されるデバイスはどれですか?",
     "choices": [
       {
         "letter": "A",
@@ -462,7 +461,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 17,
-    "question": "HOTSPOT -\nCase study -\nOverview -\nADatum Corporation is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\nADatum has a Microsoft 365 E5 subscription.\nEnvironment -\nNetwork Environment -\nThe network contains an on-premises Active Directory domain named adatum.com. The domain contains the servers shown in the following table.\nADatum has a hybrid Azure AD tenant named adatum.com.\nUsers and Groups -\nThe adatum.com tenant contains the users shown in the following table.\nAll users are assigned a Microsoft Office 365 license and an Enterprise Mobility + Security E3 license.\nEnterprise State Roaming is enabled for Group1 and GroupA.\nGroup1 and Group2 have a Membership type of Assigned.\nDevices -\nADatum has the Windows 10 devices shown in the following table.\nThe Windows 10 devices are joined to Azure AD and enrolled in Microsoft Intune.\nThe Windows 10 devices are configured as shown in the following table.\nAll the Azure AD joined devices have an executable file named C:\\AppA.exe and a folder named D:\\Folder1.\nMicrosoft Intune Configuration -\nMicrosoft Intune has the compliance policies shown in the following table.\nThe Automatic Enrollment settings have the following configurations:\nMDM user scope: GroupA -\nMAM user scope: GroupB -\nYou have an Endpoint protection configuration profile that has the following Controlled folder access settings:\nName: Protection1 -\nFolder protection: Enable -\nList of apps that have access to protected folders: C:\\*\\AppA.exe\nList of additional folders that need to be protected: D:\\Folder1\nAssignments:\nIncluded groups: Group2, GroupB -\nWindows Autopilot Configuration -\nADatum has a Windows Autopilot deployment profile configured as shown in the following exhibit.\nCurrently, there are no devices deployed by using Windows Autopilot.\nThe Intune connector for Active Directory is installed on Server1.\nRequirements -\nPlanned Changes -\nADatum plans to implement the following changes:\nPurchase a new Windows 10 device named Device6 and enroll the device in Intune\nNew computers will be deployed by using Windows Autopilot and will be hybrid Azure AD joined.\nDeployed a network boundary configuration profile that will have the following settings:\nName: Boundary1 -\nNetwork boundary: 192.168.1.0/24\nScope tags: Tag1 -\nAssignments:\nIncluded groups: Group1, Group2 -\nDeploy two VPN configuration profiles named Connection1 and Connection2 that will have the following settings:\nName: Connection1 -\nConnection name: VPN1 -\nConnection type: L2TP -\nAssignments:\nIncluded groups: Group1, Group2, GroupA\nExcluded groups: --\nName: Connection2 -\nConnection name: VPN2 -\nConnection type: IKEv2 -\nAssignments:\nIncluded groups: GroupA -\nExcluded groups: GroupB -\nTechnical Requirements -\nADatum must meet the following technical requirements:\nUsers in GroupA must be able to deploy new computers.\nAdministrative effort must be minimized.\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - Case study - Overview - ADatum Corporation is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. ADatum has a Microsoft 365 E5 subscription. Environment - Network Environment - The network contains an on-premises Active Directory domain named adatum.com. The domain contains the servers shown in the following table. ADatum has a hybrid Azure AD tenant named adatum.com. Users and Groups - The adatum.com tenant contains the users shown in the following table. All users are assigned a Microsoft Office 365 license and an Enterprise Mobility + Security E3 license. Enterprise State Roaming is enabled for Group1 and GroupA. Group1 and Group2 have a Membership type of Assigned. Devices - ADatum has the Windows 10 devices shown in the following table. The Windows 10 devices are joined to Azure AD and enrolled in Microsoft Intune. The Windows 10 devices are configured as shown in the following table. All the Azure AD joined devices have an executable file named C:\\AppA.exe and a folder named D:\\Folder1. Microsoft Intune Configuration - Microsoft Intune has the compliance policies shown in the following table. The Automatic Enrollment settings have the following configurations: MDM user scope: GroupA - MAM user scope: GroupB - You have an Endpoint protection configuration profile that has the following Controlled folder access settings: Name: Protection1 - Folder protection: Enable - List of apps that have access to protected folders: C:\\*\\AppA.exe List of additional folders that need to be protected: D:\\Folder1 Assignments: Included groups: Group2, GroupB - Windows Autopilot Configuration - ADatum has a Windows Autopilot deployment profile configured as shown in the following exhibit. Currently, there are no devices deployed by using Windows Autopilot. The Intune connector for Active Directory is installed on Server1. Requirements - Planned Changes - ADatum plans to implement the following changes: Purchase a new Windows 10 device named Device6 and enroll the device in Intune New computers will be deployed by using Windows Autopilot and will be hybrid Azure AD joined. Deployed a network boundary configuration profile that will have the following settings: Name: Boundary1 - Network boundary: 192.168.1.0/24 Scope tags: Tag1 - Assignments: Included groups: Group1, Group2 - Deploy two VPN configuration profiles named Connection1 and Connection2 that will have the following settings: Name: Connection1 - Connection name: VPN1 - Connection type: L2TP - Assignments: Included groups: Group1, Group2, GroupA Excluded groups: -- Name: Connection2 - Connection name: VPN2 - Connection type: IKEv2 - Assignments: Included groups: GroupA - Excluded groups: GroupB - Technical Requirements - ADatum must meet the following technical requirements: Users in GroupA must be able to deploy new computers. Administrative effort must be minimized. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -506,7 +505,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 18,
-    "question": "Windows 10 を実行し、Azure Log Analytics ワークスペースに接続しているコンピューターがあります。ワークスペースは、Windows イベント ログから利用可能なすべてのイベントを収集するように構成されています。コンピューターに記録されているイベントは次の表のとおりです。Log Analytics ワークスペースで収集されるイベントはどれですか？ A. 1 のみ B. 2 と 3 のみ C. 1 と 3 のみ D. 1、2、4 のみ E. 1、2、3、4 推奨回答を表示 回答を非表示 推奨回答: E 🗳️",
+    "question": "Windows 10 を実行し、Azure Log Analytics ワークスペースに接続しているコンピューターがあります。ワークスペースは、Windows イベント ログから利用可能なすべてのイベントを収集するように構成されています。コンピューターに記録されているイベントは次の表のとおりです。Log Analytics ワークスペースで収集されるイベントはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -535,7 +534,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 19,
-    "question": "ネットワークにはActive Directoryドメインが含まれています。このドメインにはAdmin1というユーザーがいます。すべてのコンピューターはWindows 10を実行しています。これらのコンピューターでWindows PowerShellリモート処理を有効にします。Admin1がこれらのコンピューターにリモートPowerShell接続を確立できるようにする必要があります。このソリューションでは、最小権限の原則を適用する必要があります。Admin1をどのグループに追加すればよいでしょうか？A. アクセス制御アシスタンスオペレーター B. リモートデスクトップユーザー C. パワーユーザー D. リモート管理ユーザー 回答を表示 回答を隠す 回答: D 🗳️",
+    "question": "ネットワークにはActive Directoryドメインが含まれています。このドメインにはAdmin1というユーザーがいます。すべてのコンピューターはWindows 10を実行しています。これらのコンピューターでWindows PowerShellリモート処理を有効にします。Admin1がこれらのコンピューターにリモートPowerShell接続を確立できるようにする必要があります。このソリューションでは、最小権限の原則を適用する必要があります。Admin1をどのグループに追加すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -583,7 +582,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 21,
-    "question": "Microsoft 365 E5 サブスクリプションがあり、User1 というユーザーが登録されており、Microsoft Intune Suite を使用しています。デバイス管理には Microsoft Intune を使用しています。Intune に登録されている Devic1 というデバイスがあります。User1 が Intune 管理センターから Device1 のリモート ヘルプを使用できることを確認する必要があります。実行する必要がある 3 つのアクションはどれですか。正解はそれぞれソリューションの一部を示しています。注: 正解は 1 点です。A. リモート ヘルプ アプリを Device1 に展開する。B. ヘルプ デスク オペレーターの役割を User1 に割り当てる。C. Intune 管理者の役割を User1 に割り当てる。D. Microsoft 365 E5 ライセンスを User1 に割り当てる。E. Device1 でデバイスのオンボーディングを再実行する。F. リモート ヘルプのアドオン ライセンスを User1 に割り当てる。回答の候補を表示 回答を非表示 回答の候補: ABF 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションがあり、User1 というユーザーが登録されており、Microsoft Intune Suite を使用しています。デバイス管理には Microsoft Intune を使用しています。Intune に登録されている Devic1 というデバイスがあります。User1 が Intune 管理センターから Device1 のリモート ヘルプを使用できることを確認する必要があります。実行する必要がある 3 つのアクションはどれですか。正解はそれぞれソリューションの一部を示しています。注: 正解は 1 点です。",
     "choices": [
       {
         "letter": "A",
@@ -611,7 +610,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 22,
-    "question": "ネットワークにcontoso.comというActive Directoryドメインがあります。このドメインには、Windows 10を実行するComputer1というコンピューターが含まれています。次の表に示すグループがあります。Group4に追加できるグループはどれですか？A. Group2のみ B. Group1とGroup2のみ C. Group2とGroup3のみ D. Group1、Group2、Group3 回答を表示 回答を隠す 回答の候補: A 🗳️",
+    "question": "ネットワークにcontoso.comというActive Directoryドメインがあります。このドメインには、Windows 10を実行するComputer1というコンピューターが含まれています。次の表に示すグループがあります。Group4に追加できるグループはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -680,7 +679,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 25,
-    "question": "You have an Azure AD tenant and 100 Windows 10 devices that are Azure AD joined and managed by using Microsoft Intune.\nYou need to configure Microsoft Defender Firewall and Microsoft Defender Antivirus on the devices. The solution must minimize administrative effort.\nWhich two actions should you perform? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.\nA.\nTo configure Microsoft Defender Antivirus, create a Group Policy Object (GPO) and configure the Windows Defender Antivirus settings.\nB.\nTo configure Microsoft Defender Firewall, create a device configuration profile and configure the Device restrictions settings.\nC.\nTo configure Microsoft Defender Antivirus, create a device configuration profile and configure the Endpoint protection settings.\nD.\nTo configure Microsoft Defender Antivirus, create a device configuration profile and configure the Device restrictions settings.\nE.\nTo configure Microsoft Defender Firewall, create a device configuration profile and configure the Endpoint protection settings.\nF.\nTo configure Microsoft Defender Firewall, create a Group Policy Object (GPO) and configure Windows Defender Firewall with Advanced Security.",
+    "question": "You have an Azure AD tenant and 100 Windows 10 devices that are Azure AD joined and managed by using Microsoft Intune. You need to configure Microsoft Defender Firewall and Microsoft Defender Antivirus on the devices. The solution must minimize administrative effort. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point. A. To configure Microsoft Defender Antivirus, create a Group Policy Object (GPO) and configure the Windows Defender Antivirus settings. B. To configure Microsoft Defender Firewall, create a device configuration profile and configure the Device restrictions settings. C. To configure Microsoft Defender Antivirus, create a device configuration profile and configure the Endpoint protection settings. D. To configure Microsoft Defender Antivirus, create a device configuration profile and configure the Device restrictions settings. E. To configure Microsoft Defender Firewall, create a device configuration profile and configure the Endpoint protection settings. F. To configure Microsoft Defender Firewall, create a Group Policy Object (GPO) and configure Windows Defender Firewall with Advanced Security.",
     "choices": [
       {
         "letter": "A",
@@ -712,7 +711,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 26,
-    "question": "You have an Azure AD group named Group1. Group1 contains two Windows 10 Enterprise devices named Device1 and Device2.\nYou create a device configuration profile named Profile1. You assign Profile1 to Group1.\nYou need to ensure that Profile1 applies to Device1 only.\nWhat should you modify in Profile1?\nA.\nAssignments\nB.\nSettings\nC.\nScope (Tags)\nD.\nApplicability Rules",
+    "question": "You have an Azure AD group named Group1. Group1 contains two Windows 10 Enterprise devices named Device1 and Device2. You create a device configuration profile named Profile1. You assign Profile1 to Group1. You need to ensure that Profile1 applies to Device1 only. What should you modify in Profile1?",
     "choices": [
       {
         "letter": "A",
@@ -752,7 +751,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 28,
-    "question": "Windows 10 を実行し、Azure Log Analytics ワークスペースに接続しているコンピューターが 100 台あります。Log Analytics を使用して、これらのコンピューターから収集できる 3 種類のデータはどれですか。正解ごとに完全な解答が提示されます。注: 正解ごとに 1 ポイント獲得できます。A. セキュリティ ログのエラーイベント B. プロセスの一覧とその実行時間 C. プロセッサの平均使用率 D. システム ログのエラーイベント E. テキストファイルとして保存されたサードパーティ製アプリケーションのログ 推奨回答を表示 回答を隠す 推奨回答: CDE 🗳️",
+    "question": "Windows 10 を実行し、Azure Log Analytics ワークスペースに接続しているコンピューターが 100 台あります。Log Analytics を使用して、これらのコンピューターから収集できる 3 種類のデータはどれですか。正解ごとに完全な解答が提示されます。注: 正解ごとに 1 ポイント獲得できます。",
     "choices": [
       {
         "letter": "A",
@@ -796,7 +795,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 30,
-    "question": "会社では全ユーザーをWindows 10 Enterpriseに標準化しています。一部のユーザーは小売店で自分のコンピューターを購入します。コンピューターはWindows 10 Proを実行しています。コンピューターをWindows 10 Enterpriseにアップグレードし、Azure ADに参加させ、いくつかのMicrosoft Storeアプリをインストールするためのソリューションを推奨する必要があります。ソリューションは、以下の要件を満たす必要があります。ユーザーがインストールしたアプリケーションが保持されるようにする。ユーザーの介入を最小限に抑える。目標を達成するための最適な推奨事項は何ですか？複数の回答で目標を達成できます。最適な回答を選択してください。A. Windows Autopilot B. Microsoft Deployment Toolkit（MDT） C. Windows Configuration Designerプロビジョニングパッケージ D. Windows Deployment Services（WDS） 推奨回答を表示 回答を非表示 推奨回答：C 🗳️",
+    "question": "会社では全ユーザーをWindows 10 Enterpriseに標準化しています。一部のユーザーは小売店で自分のコンピューターを購入します。コンピューターはWindows 10 Proを実行しています。コンピューターをWindows 10 Enterpriseにアップグレードし、Azure ADに参加させ、いくつかのMicrosoft Storeアプリをインストールするためのソリューションを推奨する必要があります。ソリューションは、以下の要件を満たす必要があります。ユーザーがインストールしたアプリケーションが保持されるようにする。ユーザーの介入を最小限に抑える。目標を達成するための最適な推奨事項は何ですか？複数の回答で目標を達成できます。最適な回答を選択してください。",
     "choices": [
       {
         "letter": "A",
@@ -820,7 +819,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 31,
-    "question": "Windows 11対応デバイス「Device1」があり、64ビット版のWindows 10 Enterpriseが実行され、Microsoft Office 2019がインストールされています。以下の表に示すWindows 11 Enterpriseイメージがあります。Device1のインプレースアップグレードに使用できるイメージはどれですか？ A. Image1のみ B. Image2のみ C. Image1とImage2 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Windows 11対応デバイス「Device1」があり、64ビット版のWindows 10 Enterpriseが実行され、Microsoft Office 2019がインストールされています。以下の表に示すWindows 11 Enterpriseイメージがあります。Device1のインプレースアップグレードに使用できるイメージはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -897,7 +896,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 35,
-    "question": "Microsoft Intune サブスクリプションをお持ちです。以下の表に示すように、Intune に登録されているデバイスがあります。各デバイスには App1 というアプリがインストールされています。App1 を管理するために必要なアプリ構成ポリシーの最小数はいくつですか？ A. 1 B. 2 C. 3 D. 4 E. 5 回答を表示 回答を非表示 回答: B 🗳️",
+    "question": "Microsoft Intune サブスクリプションをお持ちです。以下の表に示すように、Intune に登録されているデバイスがあります。各デバイスには App1 というアプリがインストールされています。App1 を管理するために必要なアプリ構成ポリシーの最小数はいくつですか？",
     "choices": [
       {
         "letter": "A",
@@ -926,7 +925,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 36,
-    "question": "Microsoft 365 E5 サブスクリプションがあり、10 台の Android Enterprise デバイスが含まれています。各デバイスには会社所有の仕事用プロファイルがあり、Microsoft Intune に登録されています。キオスクモードで 1 つのアプリを実行するようにデバイスを構成する必要があります。デバイス制限プロファイルで変更する必要がある構成設定はどれですか？ A. ユーザーとアカウント B. 全般 C. システムセキュリティ D. デバイスエクスペリエンス 回答を表示 回答を非表示 回答の候補: D 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションがあり、10 台の Android Enterprise デバイスが含まれています。各デバイスには会社所有の仕事用プロファイルがあり、Microsoft Intune に登録されています。キオスクモードで 1 つのアプリを実行するようにデバイスを構成する必要があります。デバイス制限プロファイルで変更する必要がある構成設定はどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -950,7 +949,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 37,
-    "question": "Microsoft 365 E5 サブスクリプションをご利用です。このサブスクリプションには、Windows 11 を実行し、Microsoft Intune に登録されているコンピューターが 25 台含まれています。これらのデバイスを Microsoft Defender for Endpoint にオンボードする必要があります。Microsoft Intune 管理センターで作成すべきポリシーはどれですか？ A. 攻撃面の縮小 (ASR) ポリシー B. セキュリティ ベースライン C. エンドポイント検出および対応 (EDR) ポリシー D. アカウント保護ポリシー E. ウイルス対策ポリシー 回答の候補を表示 回答を非表示 回答の候補: C 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションをご利用です。このサブスクリプションには、Windows 11 を実行し、Microsoft Intune に登録されているコンピューターが 25 台含まれています。これらのデバイスを Microsoft Defender for Endpoint にオンボードする必要があります。Microsoft Intune 管理センターで作成すべきポリシーはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -974,7 +973,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 38,
-    "question": "Microsoft 365 E5 サブスクリプションと 25 台の Apple iPad を所有しています。Apple Configurator の登録方法を使用して、iPad を Microsoft Intune に登録する必要があります。まず何をすべきでしょうか？A. MDM プッシュ証明書の適用を構成する。B. ユーザーアカウントをデバイス登録マネージャー (DEM) として追加する。C. 登録制限を変更する。D. 各 iPad のデバイス ID を含むファイルをアップロードする。回答の候補を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションと 25 台の Apple iPad を所有しています。Apple Configurator の登録方法を使用して、iPad を Microsoft Intune に登録する必要があります。まず何をすべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -1058,7 +1057,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 42,
-    "question": "Microsoft Intune と Intune データ ウェアハウスを使用しています。データ ウェアハウスに保存されているデータを含むデバイス インベントリ レポートを作成する必要があります。レポートを作成するには、どのアプリを使用すればよいですか？ A. ポータル サイト アプリ B. エンドポイント分析 C. Azure ポータル アプリ D. Microsoft Power BI 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Microsoft Intune と Intune データ ウェアハウスを使用しています。データ ウェアハウスに保存されているデータを含むデバイス インベントリ レポートを作成する必要があります。レポートを作成するには、どのアプリを使用すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -1162,7 +1161,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 47,
-    "question": "Windows Admin Center を使用して、Windows 10 を実行しているコンピューターをリモートで管理します。Windows Admin Center に接続すると、次の図に示すメッセージが表示されます。Windows Admin Center への接続時にこのメッセージが表示されないようにする必要があります。どの証明書ストアに証明書をインポートすればよいですか？ A. クライアント認証発行者 B. 個人 C. 信頼されたルート証明機関 推奨回答を表示 回答を非表示 推奨回答: C 🗳️",
+    "question": "Windows Admin Center を使用して、Windows 10 を実行しているコンピューターをリモートで管理します。Windows Admin Center に接続すると、次の図に示すメッセージが表示されます。Windows Admin Center への接続時にこのメッセージが表示されないようにする必要があります。どの証明書ストアに証明書をインポートすればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -1215,7 +1214,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 49,
-    "question": "Server1 というオンプレミスサーバーがあり、MDT1 という Microsoft Deployment Toolkit (MDT) 展開共有をホストしています。MDT1 がマルチキャスト展開をサポートしていることを確認する必要があります。Server1 にインストールすべきものは何ですか？ A. マルチパス I/O (MPIO) B. マルチポイントコネクタ C. Windows 展開サービス (WDS) D. Windows Server Update Services (WSUS) 回答を表示 回答を隠す 回答: C 🗳️",
+    "question": "Server1 というオンプレミスサーバーがあり、MDT1 という Microsoft Deployment Toolkit (MDT) 展開共有をホストしています。MDT1 がマルチキャスト展開をサポートしていることを確認する必要があります。Server1 にインストールすべきものは何ですか？",
     "choices": [
       {
         "letter": "A",
@@ -1311,7 +1310,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 53,
-    "question": "ケース スタディ - 概要 - Contoso, Ltd. は、モントリオールに本社があり、シアトルとニューヨークに 2 つの支社があるコンサルティング会社です。Contoso には、次の表に示すようなユーザーとコンピューターが存在します。同社には、IT、人事 (HR)、法務 (LEG)、マーケティング (MKG)、財務 (FIN) の各部門があります。Contoso は最近、Microsoft 365 サブスクリプションを購入しました。同社はフェニックスに新しい支社を開設する予定です。フェニックス オフィスのユーザーのほとんどは自宅で仕事をします。既存の環境 - ネットワークには、Azure AD に同期されている contoso.com という名前の Active Directory ドメインが含まれています。すべてのメンバー サーバーは Windows Server 2016 を実行しています。すべてのノート PC とデスクトップ コンピューターは Windows 10 Enterprise を実行しています。コンピューターは、Microsoft Configuration Manager を使用して管理されています。モバイル デバイスは、Microsoft Intune を使用して管理されています。コンピューターの命名規則は、部門の頭字語、ハイフン、4 つの数字 (例: FIN-6785) です。各部門には、Computers という子 OU を含む組織単位 (OU) があります。各コンピューター アカウントは、それぞれの部門の Computers OU にあります。Intune 構成 - ドメインには、次の表に示すユーザーがいます。User2 は、Intune のデバイス登録マネージャー (DEM) です。Intune に登録されているデバイスは次の表に示されています。Intune のデバイス コンプライアンス ポリシーは、次の表に示すように構成されています。デバイス コンプライアンス ポリシーには、次の表に示す割り当てがあります。Intune のデバイス制限制約は、次の表に示すように構成されています。要件 - 計画されている変更 - Contoso は次の変更を実装する予定です。 • フェニックス オフィスのユーザーに新しいコンピューターを提供します。新しいコンピューターには Windows 10 Pro がプレインストールされており、購入済みです。 • コンピューターの共同管理を実装します。技術要件 - Contoso は次の技術要件を満たす必要があります。 • Group4 というグループ内のユーザーは、Intune に登録されているデバイスからのみ Microsoft Exchange Online にアクセスできることを確認します• 人事部門の新しいコンピューター用のプロビジョニングパッケージを作成します。• iOSデバイスが診断データと使用状況テレメトリデータを送信しないようにブロックします。• 可能な限り最小権限の原則を適用します。• MKG部門のユーザーがApp1を使用できるようにします。• IT部門の共同管理を試験的に実施します。iOSデバイスの技術要件を満たす必要があります。Intuneでどのオブジェクトを作成する必要がありますか？A. 展開プロファイル B. アプリ保護ポリシー C. デバイス構成プロファイル D. コンプライアンスポリシー 回答を表示 回答を非表示 回答の候補: C 🗳️",
+    "question": "ケース スタディ - 概要 - Contoso, Ltd. は、モントリオールに本社があり、シアトルとニューヨークに 2 つの支社があるコンサルティング会社です。Contoso には、次の表に示すようなユーザーとコンピューターが存在します。同社には、IT、人事 (HR)、法務 (LEG)、マーケティング (MKG)、財務 (FIN) の各部門があります。Contoso は最近、Microsoft 365 サブスクリプションを購入しました。同社はフェニックスに新しい支社を開設する予定です。フェニックス オフィスのユーザーのほとんどは自宅で仕事をします。既存の環境 - ネットワークには、Azure AD に同期されている contoso.com という名前の Active Directory ドメインが含まれています。すべてのメンバー サーバーは Windows Server 2016 を実行しています。すべてのノート PC とデスクトップ コンピューターは Windows 10 Enterprise を実行しています。コンピューターは、Microsoft Configuration Manager を使用して管理されています。モバイル デバイスは、Microsoft Intune を使用して管理されています。コンピューターの命名規則は、部門の頭字語、ハイフン、4 つの数字 (例: FIN-6785) です。各部門には、Computers という子 OU を含む組織単位 (OU) があります。各コンピューター アカウントは、それぞれの部門の Computers OU にあります。Intune 構成 - ドメインには、次の表に示すユーザーがいます。User2 は、Intune のデバイス登録マネージャー (DEM) です。Intune に登録されているデバイスは次の表に示されています。Intune のデバイス コンプライアンス ポリシーは、次の表に示すように構成されています。デバイス コンプライアンス ポリシーには、次の表に示す割り当てがあります。Intune のデバイス制限制約は、次の表に示すように構成されています。要件 - 計画されている変更 - Contoso は次の変更を実装する予定です。 • フェニックス オフィスのユーザーに新しいコンピューターを提供します。新しいコンピューターには Windows 10 Pro がプレインストールされており、購入済みです。 • コンピューターの共同管理を実装します。技術要件 - Contoso は次の技術要件を満たす必要があります。 • Group4 というグループ内のユーザーは、Intune に登録されているデバイスからのみ Microsoft Exchange Online にアクセスできることを確認します• 人事部門の新しいコンピューター用のプロビジョニングパッケージを作成します。• iOSデバイスが診断データと使用状況テレメトリデータを送信しないようにブロックします。• 可能な限り最小権限の原則を適用します。• MKG部門のユーザーがApp1を使用できるようにします。• IT部門の共同管理を試験的に実施します。iOSデバイスの技術要件を満たす必要があります。Intuneでどのオブジェクトを作成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -1384,7 +1383,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 55,
-    "question": "500台のAndroid Enterpriseデバイスを含むMicrosoft 365サブスクリプションを所有しています。すべてのデバイスはMicrosoft Intuneに登録されています。デバイスのChromeブラウザにブックマークを配信する必要があります。何を作成すればよいでしょうか？A. コンプライアンスポリシー B. 構成プロファイル C. アプリ保護ポリシー D. アプリ構成ポリシー 推奨回答を表示 回答を隠す 推奨回答: D 🗳️",
+    "question": "500台のAndroid Enterpriseデバイスを含むMicrosoft 365サブスクリプションを所有しています。すべてのデバイスはMicrosoft Intuneに登録されています。デバイスのChromeブラウザにブックマークを配信する必要があります。何を作成すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -1437,7 +1436,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 57,
-    "question": "Windows 10 Pro を実行しているコンピューターが 25 台あります。Microsoft Intune を使用する Microsoft 365 E5 サブスクリプションを所有しています。これらのコンピューターをインプレースアップグレードで Windows 11 Enterprise にアップグレードする必要があります。このソリューションでは、管理作業を最小限に抑える必要があります。どのようなソリューションを使用すればよいでしょうか？ A. Microsoft Deployment Toolkit (MDT) と Windows 11 Enterprise のデフォルトイメージ B. Microsoft Configuration Manager と Windows 11 Enterprise のカスタムイメージ C. Windows Autopilot D. サブスクリプションのライセンス認証 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Windows 10 Pro を実行しているコンピューターが 25 台あります。Microsoft Intune を使用する Microsoft 365 E5 サブスクリプションを所有しています。これらのコンピューターをインプレースアップグレードで Windows 11 Enterprise にアップグレードする必要があります。このソリューションでは、管理作業を最小限に抑える必要があります。どのようなソリューションを使用すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -1461,7 +1460,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 58,
-    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをご利用です。デバイス管理には Microsoft Intune を使用しています。管理対象の Windows 11 デバイスの起動パフォーマンスがキャプチャされ、Intune 管理センターで確認できるようにする必要があります。何を構成すればよいでしょうか？ A. Azure Monitor エージェント B. デバイス コンプライアンス ポリシー C. 条件付きアクセス ポリシー D. Intune データ収集ポリシー 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをご利用です。デバイス管理には Microsoft Intune を使用しています。管理対象の Windows 11 デバイスの起動パフォーマンスがキャプチャされ、Intune 管理センターで確認できるようにする必要があります。何を構成すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -1514,7 +1513,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 60,
-    "question": "Windows 10 を実行するコンピューターを保護するために、Microsoft Defender for Endpoint を使用しています。Microsoft Defender for Endpoint の構成と Microsoft 推奨構成ベースラインの違いを評価する必要があります。どのツールを使用すべきでしょうか？ A. Microsoft Defender for Endpoint Power BI アプリ B. Microsoft Secure Score C. Endpoint Analytics D. Microsoft 365 Defender ポータル 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Windows 10 を実行するコンピューターを保護するために、Microsoft Defender for Endpoint を使用しています。Microsoft Defender for Endpoint の構成と Microsoft 推奨構成ベースラインの違いを評価する必要があります。どのツールを使用すべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -1538,7 +1537,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 61,
-    "question": "Microsoft 365 サブスクリプションがあり、User1 というユーザーが Microsoft Intune Suite を使用しています。Microsoft Intune を使用して、Windows 11 を実行するデバイスを管理しています。User1 はマーケティング部門の 75 台のデバイスにリモートサポートを提供しています。マーケティング部門の各デバイスの Remote Desktop Users グループに User1 を追加する必要があります。何を構成する必要がありますか？ A. アプリ構成ポリシー B. デバイスコンプライアンスポリシー C. アカウント保護ポリシー D. デバイス構成プロファイル 推奨回答を表示 回答を非表示 推奨回答: C 🗳️",
+    "question": "Microsoft 365 サブスクリプションがあり、User1 というユーザーが Microsoft Intune Suite を使用しています。Microsoft Intune を使用して、Windows 11 を実行するデバイスを管理しています。User1 はマーケティング部門の 75 台のデバイスにリモートサポートを提供しています。マーケティング部門の各デバイスの Remote Desktop Users グループに User1 を追加する必要があります。何を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -1562,7 +1561,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 62,
-    "question": "Microsoft Intune を使用する Microsoft 365 テナントがあります。ポータル サイト アプリを使用して、公開済みアプリにアクセスし、登録済みデバイスにインストールします。Microsoft Intune 管理センターから Microsoft Store アプリを追加します。ポータル サイトに表示されるアプリ情報の種類は次のうちどれですか？ 注: 正解は 1 点です。A. プライバシー URL B. 情報 URL C. 開発者 D. 所有者 推奨回答を表示 回答を非表示 推奨回答: AB 🗳️",
+    "question": "Microsoft Intune を使用する Microsoft 365 テナントがあります。ポータル サイト アプリを使用して、公開済みアプリにアクセスし、登録済みデバイスにインストールします。Microsoft Intune 管理センターから Microsoft Store アプリを追加します。ポータル サイトに表示されるアプリ情報の種類は次のうちどれですか？ 注: 正解は 1 点です。",
     "choices": [
       {
         "letter": "A",
@@ -1586,7 +1585,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 63,
-    "question": "Microsoft Intuneに登録されているデバイスが100台含まれているMicrosoft 365サブスクリプションを所有しています。起動プロセスと各デバイスの再起動頻度を確認する必要があります。どのツールを使用すればよいでしょうか？A. エンドポイント分析 B. デバイス管理 C. Azure Monitor D. Intuneデータウェアハウス 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "Microsoft Intuneに登録されているデバイスが100台含まれているMicrosoft 365サブスクリプションを所有しています。起動プロセスと各デバイスの再起動頻度を確認する必要があります。どのツールを使用すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -1610,7 +1609,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 64,
-    "question": "Microsoft 365 テナントがあります。デバイスは Microsoft Intune に登録されています。Policy1 という条件付きアクセス ポリシーを Group1 というグループに割り当てます。Policy1 は、非準拠とマークされたデバイスからの Microsoft OneDrive for Business へのアクセスを制限します。OneDrive for Business にアクセスしようとしている非準拠デバイスを特定する必要があります。どうすればよいでしょうか。A. Microsoft Entra 管理センターから、条件付きアクセスの分析情報とレポートのブックを確認します。B. Microsoft Intune 管理センターから、デバイスのコンプライアンス レポートを確認します。C. Microsoft Intune 管理センターから、非準拠デバイスのレポートを確認します。D. Microsoft Intune 管理センターから、設定のコンプライアンス レポートを確認します。おすすめの回答を表示 回答を非表示 おすすめの回答: A 🗳️",
+    "question": "Microsoft 365 テナントがあります。デバイスは Microsoft Intune に登録されています。Policy1 という条件付きアクセス ポリシーを Group1 というグループに割り当てます。Policy1 は、非準拠とマークされたデバイスからの Microsoft OneDrive for Business へのアクセスを制限します。OneDrive for Business にアクセスしようとしている非準拠デバイスを特定する必要があります。どうすればよいでしょうか。",
     "choices": [
       {
         "letter": "A",
@@ -1634,7 +1633,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 65,
-    "question": "ネットワークにActive Directoryドメインがあります。このドメインにはWindows 10を実行するコンピューターが2,000台あります。Azure ADとMicrosoft Intuneのハイブリッドを実装します。既存のすべてのコンピューターをAzure ADに自動的に登録し、Intuneに登録する必要があります。このソリューションは管理作業を最小限に抑える必要があります。何を使用すべきでしょうか？A. Autodiscoverアドレスレコード B. グループポリシーオブジェクト（GPO） C. Autodiscoverサービス接続ポイント（SCP） D. Windows Autopilot展開プロファイル 回答の候補を表示 回答を非表示 回答の候補：B 🗳️",
+    "question": "ネットワークにActive Directoryドメインがあります。このドメインにはWindows 10を実行するコンピューターが2,000台あります。Azure ADとMicrosoft Intuneのハイブリッドを実装します。既存のすべてのコンピューターをAzure ADに自動的に登録し、Intuneに登録する必要があります。このソリューションは管理作業を最小限に抑える必要があります。何を使用すべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -1735,7 +1734,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 69,
-    "question": "Microsoft 365 サブスクリプションをご利用です。すべてのデバイスで Windows 10 が稼働しています。ユーザーが Windows Insider Program にデバイスを登録できないようにする必要があります。Microsoft Intune 管理センターから実行する必要がある 2 つの構成は何ですか？ 正解はそれぞれ完全なソリューションです。注: 正解はそれぞれ 1 ポイントです。A. デバイス制限デバイス構成プロファイル B. アプリ構成ポリシー C. Windows 10 以降のセキュリティ ベースライン D. カスタム デバイス構成プロファイル E. Windows 10 以降の更新リング 回答の候補を表示 回答を非表示 回答の候補: AE 🗳️",
+    "question": "Microsoft 365 サブスクリプションをご利用です。すべてのデバイスで Windows 10 が稼働しています。ユーザーが Windows Insider Program にデバイスを登録できないようにする必要があります。Microsoft Intune 管理センターから実行する必要がある 2 つの構成は何ですか？ 正解はそれぞれ完全なソリューションです。注: 正解はそれぞれ 1 ポイントです。",
     "choices": [
       {
         "letter": "A",
@@ -1775,7 +1774,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 71,
-    "question": "会社ではMicrosoft Intuneを使用しています。500台以上のAndroidおよびiOSデバイスがIntuneテナントに登録されています。新しいIntuneポリシーを展開する予定です。デバイスにインストールされているAndroidまたはiOSのバージョンに応じて、異なるポリシーが適用されます。ポリシーがAndroidまたはiOSのバージョンに基づいてデバイスをターゲットにできることを確認する必要があります。最初に何を構成する必要がありますか？A. Azure ADで動的メンバーシップルールを持つグループ B. Intuneのデバイスカテゴリ C. Intuneの企業デバイス識別子 D. Azure ADのデバイス設定 回答を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "会社ではMicrosoft Intuneを使用しています。500台以上のAndroidおよびiOSデバイスがIntuneテナントに登録されています。新しいIntuneポリシーを展開する予定です。デバイスにインストールされているAndroidまたはiOSのバージョンに応じて、異なるポリシーが適用されます。ポリシーがAndroidまたはiOSのバージョンに基づいてデバイスをターゲットにできることを確認する必要があります。最初に何を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -1892,7 +1891,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 76,
-    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをご利用です。デバイス管理には Microsoft Intune を使用しています。以下の表に示すデバイスを所有しています。サブスクリプションのライセンス認証によって Windows 11 Enterprise に変更できるデバイスはどれですか？ A. デバイス3 のみ B. デバイス2 とデバイス3 のみ C. デバイス1 とデバイス2 のみ D. デバイス1、デバイス2、デバイス3 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをご利用です。デバイス管理には Microsoft Intune を使用しています。以下の表に示すデバイスを所有しています。サブスクリプションのライセンス認証によって Windows 11 Enterprise に変更できるデバイスはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -1921,7 +1920,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 77,
-    "question": "質問番号: 77 - Microsoft 365 サブスクリプションがあり、User1 というユーザーがいます。User1 には Windows 10/11 Enterprise E3 ライセンスが割り当てられています。デバイス管理には Microsoft Intune Suite を使用しています。User1 は以下のデバイスをアクティベートします。 • デバイス1: Windows 11 Enterprise • デバイス2: Windows 10 Enterprise • デバイス3: Windows 11 Enterprise User1 はあと何台のデバイスをアクティベートできますか? A. 2台 B. 3台 C. 7台 D. 8台 回答を表示 回答を非表示 回答: A 🗳️",
+    "question": "質問番号: 77 - Microsoft 365 サブスクリプションがあり、User1 というユーザーがいます。User1 には Windows 10/11 Enterprise E3 ライセンスが割り当てられています。デバイス管理には Microsoft Intune Suite を使用しています。User1 は以下のデバイスをアクティベートします。 • デバイス1: Windows 11 Enterprise • デバイス2: Windows 10 Enterprise • デバイス3: Windows 11 Enterprise User1 はあと何台のデバイスをアクティベートできますか?",
     "choices": [
       {
         "letter": "A",
@@ -1945,7 +1944,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 78,
-    "question": "会社では、Azure AD、Microsoft 365、Microsoft Intune、Azure Information Protection を実装しています。会社のセキュリティ ポリシーには、次の内容が記載されています。 • 個人用デバイスを Intune に登録する必要はありません。 • ユーザーは、会社のメール データにアクセスする前に PIN を使用して認証する必要があります。 • ユーザーは、個人の iOS デバイスや Android デバイスを使用して、会社のクラウド サービスにアクセスできます。 • ユーザーが、Microsoft OneDrive for Business 以外のクラウド ストレージ サービスに会社のメール データをコピーできないようにする必要があります。 セキュリティ ポリシーを適用するには、ソリューションを構成する必要があります。何を作成すればよいですか。 A. Microsoft Intune 管理センターのデバイス構成プロファイル B. Microsoft Purview コンプライアンス ポータルのデータ損失防止 (DLP) ポリシー C. Microsoft Purview コンプライアンス ポータルの内部者リスク管理ポリシー D. Microsoft Intune 管理センターのアプリ保護ポリシー 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "会社では、Azure AD、Microsoft 365、Microsoft Intune、Azure Information Protection を実装しています。会社のセキュリティ ポリシーには、次の内容が記載されています。 • 個人用デバイスを Intune に登録する必要はありません。 • ユーザーは、会社のメール データにアクセスする前に PIN を使用して認証する必要があります。 • ユーザーは、個人の iOS デバイスや Android デバイスを使用して、会社のクラウド サービスにアクセスできます。 • ユーザーが、Microsoft OneDrive for Business 以外のクラウド ストレージ サービスに会社のメール データをコピーできないようにする必要があります。 セキュリティ ポリシーを適用するには、ソリューションを構成する必要があります。何を作成すればよいですか。",
     "choices": [
       {
         "letter": "A",
@@ -1969,7 +1968,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 79,
-    "question": "Microsoft 365 E5 サブスクリプションと、Windows 10 を実行するコンピューター 100 台を所有しています。Microsoft Office 展開ツール (ODT) を使用して、これらのコンピューターに Microsoft Office Professional Plus 2019 を展開する必要があります。ODT 用のカスタマイズファイルを作成するには、どのツールを使用すればよいでしょうか？ A. Microsoft 365 管理センター B. Microsoft Intune 管理センター C. Microsoft Purview コンプライアンス ポータル D. Microsoft 365 アプリ管理センター 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションと、Windows 10 を実行するコンピューター 100 台を所有しています。Microsoft Office 展開ツール (ODT) を使用して、これらのコンピューターに Microsoft Office Professional Plus 2019 を展開する必要があります。ODT 用のカスタマイズファイルを作成するには、どのツールを使用すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -1993,7 +1992,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 80,
-    "question": "Microsoft Intune に登録されている 100 台の Windows 10 デバイスを含む Microsoft 365 E5 サブスクリプションを所有しています。エンドポイント分析を使用する予定です。ベースライン メトリックを作成する必要があります。まず何をすべきでしょうか? A. ベースライン回帰しきい値を変更する。B. エンドポイント分析に 10 台のデバイスをオンボードする。C. Log Analytics ワークスペースを作成する。D. Azure Monitor ワークブックを作成する。推奨回答を表示 回答を隠す 推奨回答: B 🗳️",
+    "question": "Microsoft Intune に登録されている 100 台の Windows 10 デバイスを含む Microsoft 365 E5 サブスクリプションを所有しています。エンドポイント分析を使用する予定です。ベースライン メトリックを作成する必要があります。まず何をすべきでしょうか?",
     "choices": [
       {
         "letter": "A",
@@ -2041,7 +2040,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 82,
-    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをご利用です。Windows 11 デバイスの管理には Microsoft Intune を使用しています。ユーザーに番号照合を要求するパスワードレス認証を実装する必要があります。どの認証方法を使用すべきでしょうか？ A. Microsoft Authenticator B. 音声通話 C. FIDO2 セキュリティキー D. テキストメッセージ 回答の候補を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをご利用です。Windows 11 デバイスの管理には Microsoft Intune を使用しています。ユーザーに番号照合を要求するパスワードレス認証を実装する必要があります。どの認証方法を使用すべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -2065,7 +2064,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 83,
-    "question": "Microsoft 365 サブスクリプションをお持ちです。ユーザーにセキュリティの既定値の設定と条件付きアクセスポリシーの作成権限を与える必要があります。このソリューションでは、最小権限の原則を適用する必要があります。ユーザーに割り当てるロールはどれですか？ A. グローバル管理者 B. 条件付きアクセス管理者 C. セキュリティ管理者 D. Intune 管理者 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Microsoft 365 サブスクリプションをお持ちです。ユーザーにセキュリティの既定値の設定と条件付きアクセスポリシーの作成権限を与える必要があります。このソリューションでは、最小権限の原則を適用する必要があります。ユーザーに割り当てるロールはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -2089,7 +2088,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 84,
-    "question": "Microsoft Intune を使用する Microsoft 365 サブスクリプションがあります。新しい Windows 11 Pro デバイスが 5 台あります。企業での使用に向けてデバイスを準備する必要があります。ソリューションは、次の要件を満たす必要があります。• 各デバイスに Windows 11 Enterprise をインストールします。• 各デバイスに App1 という名前の Windows インストーラー (MSI) パッケージをインストールします。• App1 に必要な Certificate1 という名前の証明書を追加します。• 各デバイスを Azure AD に参加させます。3 つのプロビジョニング オプションのうち、どれを使用できますか? 正解ごとに完全なソリューションが提示されます。注: 正解を選択するごとに 1 ポイントが加算されます。A. サブスクリプションのアクティブ化 B. カスタム Windows イメージ C. インプレース アップグレード D. Windows Autopilot E. プロビジョニング パッケージ 回答の候補を表示 回答を非表示 回答の候補: BDE 🗳️",
+    "question": "Microsoft Intune を使用する Microsoft 365 サブスクリプションがあります。新しい Windows 11 Pro デバイスが 5 台あります。企業での使用に向けてデバイスを準備する必要があります。ソリューションは、次の要件を満たす必要があります。• 各デバイスに Windows 11 Enterprise をインストールします。• 各デバイスに App1 という名前の Windows インストーラー (MSI) パッケージをインストールします。• App1 に必要な Certificate1 という名前の証明書を追加します。• 各デバイスを Azure AD に参加させます。3 つのプロビジョニング オプションのうち、どれを使用できますか? 正解ごとに完全なソリューションが提示されます。注: 正解を選択するごとに 1 ポイントが加算されます。",
     "choices": [
       {
         "letter": "A",
@@ -2113,7 +2112,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 85,
-    "question": "Windows 10 を実行し、Microsoft Intune を使用して管理されているコンピューターがあります。ユーザーは D:\\Folder1 というフォルダーにファイルを保存しています。信頼できるアプリケーションのみが D:\\Folder1 への書き込みアクセスを許可されるようにする必要があります。デバイス構成プロファイルでは何を構成する必要がありますか？ A. Microsoft Defender Exploit Guard B. Microsoft Defender Application Guard C. Microsoft Defender SmartScreen D. Microsoft Defender Application Control 回答の候補を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "Windows 10 を実行し、Microsoft Intune を使用して管理されているコンピューターがあります。ユーザーは D:\\Folder1 というフォルダーにファイルを保存しています。信頼できるアプリケーションのみが D:\\Folder1 への書き込みアクセスを許可されるようにする必要があります。デバイス構成プロファイルでは何を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -2153,7 +2152,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 87,
-    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションを所有しています。デバイス管理には Microsoft Intune を使用しています。Intune の自動登録は設定済みです。ワークグループに 100 台の Windows 11 デバイスがあります。これらのデバイスを社内ワイヤレス ネットワークに接続し、100 台の新しい Windows 11 デバイスを Intune に登録する必要があります。どの方法を使用すればよいでしょうか？ A. プロビジョニング パッケージ B. グループ ポリシー オブジェクト (GPO) C. モバイル デバイス管理 (MDM) の自動登録 D. デバイス構成ポリシー 回答の候補を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションを所有しています。デバイス管理には Microsoft Intune を使用しています。Intune の自動登録は設定済みです。ワークグループに 100 台の Windows 11 デバイスがあります。これらのデバイスを社内ワイヤレス ネットワークに接続し、100 台の新しい Windows 11 デバイスを Intune に登録する必要があります。どの方法を使用すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -2177,7 +2176,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 88,
-    "question": "次の表に示すデバイスを含むAzure ADテナントがあります。Windows 11 Enterprise E5ライセンスを購入しました。サブスクリプションのアクティベーションを使用してWindows 11 Enterpriseにアップグレードできるデバイスはどれですか？ A. デバイス1のみ B. デバイス1とデバイス2のみ C. デバイス1とデバイス3のみ D. デバイス1、デバイス2、デバイス3、デバイス4 回答を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "次の表に示すデバイスを含むAzure ADテナントがあります。Windows 11 Enterprise E5ライセンスを購入しました。サブスクリプションのアクティベーションを使用してWindows 11 Enterpriseにアップグレードできるデバイスはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -2206,7 +2205,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 89,
-    "question": "ネットワークにActive Directoryドメインが含まれています。このドメインには、Windows 11を実行するComputer1というコンピューターが含まれています。Computer1でWindowsリモート管理（WinRM）サービスを有効にし、以下の構成を行う必要があります。• WinRMサービスのスタートアップの種類を自動に設定します。• 任意のIPアドレスからの要求を受け入れるリスナーを作成します。• WS-Management通信に対してファイアウォールの例外を有効にします。どのPowerShellコマンドレットを使用すればよいですか？ A. Connect-WSMan B. Enable-PSRemoting C. Invoke-WSManAction D. Enable-PSSessionConfiguration 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "ネットワークにActive Directoryドメインが含まれています。このドメインには、Windows 11を実行するComputer1というコンピューターが含まれています。Computer1でWindowsリモート管理（WinRM）サービスを有効にし、以下の構成を行う必要があります。• WinRMサービスのスタートアップの種類を自動に設定します。• 任意のIPアドレスからの要求を受け入れるリスナーを作成します。• WS-Management通信に対してファイアウォールの例外を有効にします。どのPowerShellコマンドレットを使用すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -2258,7 +2257,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 91,
-    "question": "Windows 10 を実行しているコンピューターに機能更新プログラムをインストールしました。更新プログラムをロールバックできる日数はどのくらいですか? A. 5 日 B. 10 日 C. 14 日 D. 30 日 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Windows 10 を実行しているコンピューターに機能更新プログラムをインストールしました。更新プログラムをロールバックできる日数はどのくらいですか?",
     "choices": [
       {
         "letter": "A",
@@ -2282,7 +2281,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 92,
-    "question": "Azure Log Analytics ワークスペースを含む Microsoft Azure サブスクリプションがあります。Windows 10 を実行する Computer1 という新しいコンピューターを展開します。Computer1 はワークグループに属しています。Log Analytics を使用して Computer1 のイベントをクエリできることを確認する必要があります。Computer1 で何をすべきでしょうか？ A. Azure AD に参加する。B. Windows Defender ファイアウォールを構成する。C. イベント サブスクリプションを作成する。D. Azure Monitor エージェントをインストールする。推奨回答を表示 回答を隠す 推奨回答: A 🗳️",
+    "question": "Azure Log Analytics ワークスペースを含む Microsoft Azure サブスクリプションがあります。Windows 10 を実行する Computer1 という新しいコンピューターを展開します。Computer1 はワークグループに属しています。Log Analytics を使用して Computer1 のイベントをクエリできることを確認する必要があります。Computer1 で何をすべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -2330,7 +2329,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 94,
-    "question": "ドラッグ＆ドロップ - Microsoft 365 サブスクリプションがあり、User1 と User2 という 2 人のユーザーがいます。これらのユーザーが以下のタスクを実行できるようにする必要があります。• User1 はグループの作成とユーザーの管理が可能である必要があります。• User2 は管理者以外のユーザーのパスワードをリセットできる必要があります。このソリューションでは、最小権限の原則を適用する必要があります。各ユーザーにはどのロールを割り当てる必要がありますか？回答するには、適切なロールを正しいユーザーにドラッグしてください。各ロールは 1 回、複数回、またはまったく使用しないこともできます。コンテンツを表示するには、ペイン間の分割バーをドラッグするか、スクロールする必要がある場合があります。注: 正しい選択ごとに 1 ポイントが与えられます。回答の候補を表示 回答を非表示 回答の候補:",
+    "question": "ドラッグ＆ドロップ - Microsoft 365 サブスクリプションがあり、User1 と User2 という 2 人のユーザーがいます。これらのユーザーが以下のタスクを実行できるようにする必要があります。• User1 はグループの作成とユーザーの管理が可能である必要があります。• User2 は管理者以外のユーザーのパスワードをリセットできる必要があります。このソリューションでは、最小権限の原則を適用する必要があります。各ユーザーにはどのロールを割り当てる必要がありますか？回答するには、適切なロールを正しいユーザーにドラッグしてください。各ロールは 1 回、複数回、またはまったく使用しないこともできます。コンテンツを表示するには、ペイン間の分割バーをドラッグするか、スクロールする必要がある場合があります。注: 正しい選択ごとに 1 ポイントが与えられます。",
     "choices": [],
     "answer": "",
     "images": [
@@ -2370,7 +2369,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 96,
-    "question": "Windows 11 を実行している Computer1 というコンピューターがあります。User1 というユーザーがリモートデスクトップを使用して Computer1 に接続する予定です。リモートデスクトップ接続が確立され、サインインページが表示される前に、User1 のデバイスが認証されていることを確認する必要があります。Computer1 で何をすべきでしょうか？ A. レピュテーションベースの保護を有効にする B. ネットワークレベル認証 (NLA) を有効にする C. ネットワーク探索を有効にする D. リモートデスクトップ構成サービスを構成する 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Windows 11 を実行している Computer1 というコンピューターがあります。User1 というユーザーがリモートデスクトップを使用して Computer1 に接続する予定です。リモートデスクトップ接続が確立され、サインインページが表示される前に、User1 のデバイスが認証されていることを確認する必要があります。Computer1 で何をすべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -2394,7 +2393,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 97,
-    "question": "ドラッグ＆ドロップ - 会社にはWindows 10を実行するComputer1というコンピューターがあります。Computer1は退職したユーザーが使用していました。Computer1を別の用途に転用し、新しいユーザーに割り当てる予定です。Windows Autopilotを使用してComputer1を再展開する必要があります。3つの操作のうち、どの操作を順番に実行する必要がありますか？ 回答するには、アクションリストから適切な操作を回答エリアに移動し、正しい順序に並べ替えてください。 回答の候補を表示 回答を非表示 回答の候補:",
+    "question": "ドラッグ＆ドロップ - 会社にはWindows 10を実行するComputer1というコンピューターがあります。Computer1は退職したユーザーが使用していました。Computer1を別の用途に転用し、新しいユーザーに割り当てる予定です。Windows Autopilotを使用してComputer1を再展開する必要があります。3つの操作のうち、どの操作を順番に実行する必要がありますか？ 回答するには、アクションリストから適切な操作を回答エリアに移動し、正しい順序に並べ替えてください。",
     "choices": [],
     "answer": "",
     "images": [
@@ -2410,7 +2409,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 98,
-    "question": "contoso.com という Azure AD テナントがあります。Windows 11 を実行する Computer1 というワークグループコンピューターがあります。Computer1 を contoso.com に追加する必要があります。どのアプリを使うべきでしょうか？ A. dsregcmd.exe B. コンピューター管理 C. netdom.exe D. 設定アプリ おすすめの回答を表示 回答を非表示 おすすめの回答: D 🗳️",
+    "question": "contoso.com という Azure AD テナントがあります。Windows 11 を実行する Computer1 というワークグループコンピューターがあります。Computer1 を contoso.com に追加する必要があります。どのアプリを使うべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -2434,7 +2433,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 99,
-    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションがあります。UpdateRing1 という更新リングがあり、次の設定が含まれています: • 自動更新の動作: スケジュールされた時間に自動的にインストールして再起動します • 自動動作の頻度: 月の第 1 週 • スケジュールされたインストール日: 火曜日 • スケジュールされたインストール時刻: 午前 3 時 Microsoft Intune 管理センターから、UpdateRing1 の機能更新プログラムの [アンインストール] を選択します。デバイスはいつ機能更新プログラムの削除を開始しますか? A. ユーザーがアンインストールを承認したとき B. ポリシーを受信したらすぐに C. 次の火曜日 D. 翌月の第 1 火曜日 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションがあります。UpdateRing1 という更新リングがあり、次の設定が含まれています: • 自動更新の動作: スケジュールされた時間に自動的にインストールして再起動します • 自動動作の頻度: 月の第 1 週 • スケジュールされたインストール日: 火曜日 • スケジュールされたインストール時刻: 午前 3 時 Microsoft Intune 管理センターから、UpdateRing1 の機能更新プログラムの [アンインストール] を選択します。デバイスはいつ機能更新プログラムの削除を開始しますか?",
     "choices": [
       {
         "letter": "A",
@@ -2458,7 +2457,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 100,
-    "question": "iOSデバイスを管理するためにMicrosoft Intuneサブスクリプションを使用しています。ジェイルブレイクされたiOSデバイスをブロックするデバイスコンプライアンスポリシーを構成します。拡張ジェイルブレイク検出を有効にする必要があります。何を構成する必要がありますか？ A. コンプライアンスポリシー設定 B. デバイスコンプライアンスポリシー C. ネットワークロケーション D. 構成プロファイル 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "iOSデバイスを管理するためにMicrosoft Intuneサブスクリプションを使用しています。ジェイルブレイクされたiOSデバイスをブロックするデバイスコンプライアンスポリシーを構成します。拡張ジェイルブレイク検出を有効にする必要があります。何を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -2506,7 +2505,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 102,
-    "question": "Windows 11 Pro を実行しているコンピューターがあります。これらのコンピューターは Azure AD に参加しており、Microsoft Intune に登録されています。これらのコンピューターを Windows 11 Enterprise にアップグレードする必要があります。Intune で何を構成する必要がありますか？ A. デバイス コンプライアンス ポリシー B. デバイス クリーンアップ ルール C. デバイス登録ポリシー D. デバイス構成プロファイル 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Windows 11 Pro を実行しているコンピューターがあります。これらのコンピューターは Azure AD に参加しており、Microsoft Intune に登録されています。これらのコンピューターを Windows 11 Enterprise にアップグレードする必要があります。Intune で何を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -2530,7 +2529,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 103,
-    "question": "次の表に示すデバイスを含むMicrosoft 365 E5サブスクリプションがあります。すべてのデバイスにMicrosoft Edgeがインストールされています。Microsoft Intune管理センターから、Edge1という名前のMicrosoft Edgeベースラインプロファイルを作成します。サポートされているすべてのデバイスにEdge1を適用する必要があります。どのデバイスにEdge1を適用する必要がありますか？A. Device1のみ B. Device1とDevice2のみ C. Device1、Device2、Device3のみ D. Device1、Device2、Device4のみ E. Device1、Device2、Device3、Device4 回答を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "次の表に示すデバイスを含むMicrosoft 365 E5サブスクリプションがあります。すべてのデバイスにMicrosoft Edgeがインストールされています。Microsoft Intune管理センターから、Edge1という名前のMicrosoft Edgeベースラインプロファイルを作成します。サポートされているすべてのデバイスにEdge1を適用する必要があります。どのデバイスにEdge1を適用する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -2575,7 +2574,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 105,
-    "question": "Microsoft 365 サブスクリプションを所有しています。Windows Autopilot を使用して 25 台の Windows 11 デバイスをプロビジョニングする予定です。Out-of-Box Experience (OOBE) 設定を構成する必要があります。Microsoft Intune 管理センターで作成すべきものは何ですか？ A. 登録ステータス ページ (ESP) B. 展開プロファイル C. コンプライアンス ポリシー D. PowerShell スクリプト E. 構成プロファイル 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft 365 サブスクリプションを所有しています。Windows Autopilot を使用して 25 台の Windows 11 デバイスをプロビジョニングする予定です。Out-of-Box Experience (OOBE) 設定を構成する必要があります。Microsoft Intune 管理センターで作成すべきものは何ですか？",
     "choices": [
       {
         "letter": "A",
@@ -2671,7 +2670,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 109,
-    "question": "Microsoft Intune を使用する Microsoft 365 サブスクリプションをご利用です。次の表に示すように、Intune にアプリを追加しています。Android Enterprise プラットフォーム用に、Policy1 というアプリ構成ポリシーを作成する必要があります。Policy1 を使用して管理できるアプリはどれですか? A. App2 のみ B. App3 のみ C. App1 と App3 のみ D. App2 と App3 のみ E. App1、App2、および App3 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Microsoft Intune を使用する Microsoft 365 サブスクリプションをご利用です。次の表に示すように、Intune にアプリを追加しています。Android Enterprise プラットフォーム用に、Policy1 というアプリ構成ポリシーを作成する必要があります。Policy1 を使用して管理できるアプリはどれですか?",
     "choices": [
       {
         "letter": "A",
@@ -2716,7 +2715,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 111,
-    "question": "1,000台のWindows 11デバイスを含むMicrosoft 365 E5サブスクリプションを所有しています。すべてのデバイスはMicrosoft Intuneに登録されています。IntuneをMicrosoft Defender for Endpointと統合する予定です。IntuneとDefender for Endpointの間でサービス間接続を確立する必要があります。Microsoft Intune管理センターで構成する必要がある設定はどれですか？A. Premiumアドオン B. コネクタとトークン C. テナント登録 D. Microsoft Tunnelゲートウェイ 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "1,000台のWindows 11デバイスを含むMicrosoft 365 E5サブスクリプションを所有しています。すべてのデバイスはMicrosoft Intuneに登録されています。IntuneをMicrosoft Defender for Endpointと統合する予定です。IntuneとDefender for Endpointの間でサービス間接続を確立する必要があります。Microsoft Intune管理センターで構成する必要がある設定はどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -2740,7 +2739,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 112,
-    "question": "以下の表に示すWindows 10デバイスを所有しています。これらのデバイスをWindows 11 Enterpriseにアップグレードする予定です。Windows 11 Enterpriseへの直接インプレースアップグレードを実行できるデバイスはどれですか？ A. デバイス3のみ B. デバイス3とデバイス4のみ C. デバイス2、デバイス3、デバイス4のみ D. デバイス1、デバイス3、デバイス4のみ E. デバイス1、デバイス2、デバイス3、デバイス4のみ 回答を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "以下の表に示すWindows 10デバイスを所有しています。これらのデバイスをWindows 11 Enterpriseにアップグレードする予定です。Windows 11 Enterpriseへの直接インプレースアップグレードを実行できるデバイスはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -2789,7 +2788,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 114,
-    "question": "会社にはリモートデスクトップゲートウェイ（RDゲートウェイ）があります。Server1というサーバーがあり、RDゲートウェイ経由でリモートデスクトップサービス（RDS）を使用してアクセスできます。ゲートウェイ経由で接続するには、リモートデスクトップ接続を構成する必要があります。どの設定を構成する必要がありますか？ A. どこからでも接続 B. サーバー認証 C. 接続設定 D. ローカルデバイスとリソース 回答を表示 回答を非表示 回答: A 🗳️",
+    "question": "会社にはリモートデスクトップゲートウェイ（RDゲートウェイ）があります。Server1というサーバーがあり、RDゲートウェイ経由でリモートデスクトップサービス（RDS）を使用してアクセスできます。ゲートウェイ経由で接続するには、リモートデスクトップ接続を構成する必要があります。どの設定を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -2813,7 +2812,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 115,
-    "question": "Microsoft Deployment Toolkit (MDT) の展開共有があります。標準クライアントタスクシーケンステンプレートを使用して Windows 11 を展開する予定です。以下の操作を実行するために、タスクシーケンスを変更する必要があります。• Unified Extensible Firmware Interface (UEFI) をサポートするようにディスクをフォーマットする。• 回復パーティションを作成する。タスクシーケンスのどのフェーズを変更する必要がありますか？ A. プレインストール B. ポストインストール C. インストール D. 初期化 回答を表示 回答を隠す 回答: A 🗳️",
+    "question": "Microsoft Deployment Toolkit (MDT) の展開共有があります。標準クライアントタスクシーケンステンプレートを使用して Windows 11 を展開する予定です。以下の操作を実行するために、タスクシーケンスを変更する必要があります。• Unified Extensible Firmware Interface (UEFI) をサポートするようにディスクをフォーマットする。• 回復パーティションを作成する。タスクシーケンスのどのフェーズを変更する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -2853,7 +2852,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 117,
-    "question": "ネットワークにはオンプレミスの Active Directory ドメインが含まれています。このドメインには、Windows 10 を実行する Computer1 と Computer2 という 2 台のコンピューターが含まれています。Computer1 に Windows Admin Center をインストールします。Windows Admin Center を使用して、Computer1 から Computer2 を管理する必要があります。Computer2 で何をすべきでしょうか？A. TrustedHosts リストを更新する。B. Enable-PSRemoting コマンドレットを実行する。C. Microsoft Defender ファイアウォールを介した Windows リモート管理 (WinRM) を許可する。D. 受信 Microsoft Defender ファイアウォール規則を追加する。推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "ネットワークにはオンプレミスの Active Directory ドメインが含まれています。このドメインには、Windows 10 を実行する Computer1 と Computer2 という 2 台のコンピューターが含まれています。Computer1 に Windows Admin Center をインストールします。Windows Admin Center を使用して、Computer1 から Computer2 を管理する必要があります。Computer2 で何をすべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -2877,7 +2876,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 118,
-    "question": "HOTSPOT\n-\nYou have a Microsoft 365 subscription that uses Microsoft Intune Suite.\nYou use Microsoft Intune to manage devices.\nYou plan to create Windows 11 device builds for the marketing and research departments. The solution must meet the requirements:\n•\tMarketing department devices must support Windows Update for Business.\n•\tResearch department devices must have support for feature update versions for up to 36 months from release.\nWhat is the minimum Windows 11 edition required for each department? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - You have a Microsoft 365 subscription that uses Microsoft Intune Suite. You use Microsoft Intune to manage devices. You plan to create Windows 11 device builds for the marketing and research departments. The solution must meet the requirements: • Marketing department devices must support Windows Update for Business. • Research department devices must have support for feature update versions for up to 36 months from release. What is the minimum Windows 11 edition required for each department? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -2893,7 +2892,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 119,
-    "question": "You have an Azure AD tenant named contoso.com.\nYou plan to use Windows Autopilot to configure the Windows 10 devices shown in the following table.\nWhich devices can be configured by using Windows Autopilot self-deploying mode?\nA.\nDevice2 only\nB.\nDevice3 only\nC.\nDevice1 and Device3 only\nD.\nDevice1, Device2, and Device3",
+    "question": "You have an Azure AD tenant named contoso.com. You plan to use Windows Autopilot to configure the Windows 10 devices shown in the following table. Which devices can be configured by using Windows Autopilot self-deploying mode?",
     "choices": [
       {
         "letter": "A",
@@ -2922,7 +2921,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 120,
-    "question": "You need to implement mobile device management (MDM) for personal devices that run Windows 11. The solution must meet the following requirements:\n•\tEnsure that you can manage the personal devices by using Microsoft Intune.\n•\tEnsure that users can access company data seamlessly from their personal devices.\n•\tEnsure that users can only sign in to their personal devices by using their personal account.\nWhat should you use to add the devices to Azure AD?\nA.\nAzure AD registered\nB.\nhybrid Azure AD join\nC.\nAzure AD joined",
+    "question": "You need to implement mobile device management (MDM) for personal devices that run Windows 11. The solution must meet the following requirements: • Ensure that you can manage the personal devices by using Microsoft Intune. • Ensure that users can access company data seamlessly from their personal devices. • Ensure that users can only sign in to their personal devices by using their personal account. What should you use to add the devices to Azure AD?",
     "choices": [
       {
         "letter": "A",
@@ -2942,7 +2941,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 121,
-    "question": "HOTSPOT\n-\nYou have devices enrolled in Microsoft Intune as shown in the following table.\nIntune includes the device compliance policies shown in the following table.\nThe device compliance policies has the assignments shown in the following table.\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - You have devices enrolled in Microsoft Intune as shown in the following table. Intune includes the device compliance policies shown in the following table. The device compliance policies has the assignments shown in the following table. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -2970,7 +2969,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 122,
-    "question": "contoso.com という Azure AD テナントがあります。ユーザーが Windows 11 デバイスを contoso.com に参加させた際に、ローカルの Administrators グループに自動的に追加されないようにする必要があります。何を構成すればよいでしょうか？ A. Windows Autopilot B. Windows のプロビジョニング パッケージ C. Azure AD のセキュリティの既定値 D. Azure AD のデバイス設定 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "contoso.com という Azure AD テナントがあります。ユーザーが Windows 11 デバイスを contoso.com に参加させた際に、ローカルの Administrators グループに自動的に追加されないようにする必要があります。何を構成すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -2994,7 +2993,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 123,
-    "question": "会社には、以下の表に示すように、Microsoft Intune に登録されているデバイスがあります。Microsoft Intune 管理センターで、会社のネットワークを Location1 という場所として定義しています。ネットワークの場所に基づくコンプライアンスポリシーを使用できるデバイスはどれですか？ A. Device1 のみ B. Device2 のみ C. Device1 と Device2 のみ D. Device2 と Device3 のみ E. Device1、Device2、Device3 推奨回答を表示 回答を非表示 推奨回答: E 🗳️",
+    "question": "会社には、以下の表に示すように、Microsoft Intune に登録されているデバイスがあります。Microsoft Intune 管理センターで、会社のネットワークを Location1 という場所として定義しています。ネットワークの場所に基づくコンプライアンスポリシーを使用できるデバイスはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -3023,7 +3022,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 124,
-    "question": "Azureサブスクリプションがあります。オンプレミスのWindows 11デバイス「Device1」があります。Azure Monitorを使用してDevice1を監視する予定です。サブスクリプションに「DCR1」というデータ収集ルール（DCR）を作成します。DCR1を何に関連付けるべきでしょうか？ A. Azure Network Watcher B. Device1 C. Log Analyticsワークスペース D. 監視対象オブジェクト 回答を表示 回答を非表示 回答の候補: D 🗳️",
+    "question": "Azureサブスクリプションがあります。オンプレミスのWindows 11デバイス「Device1」があります。Azure Monitorを使用してDevice1を監視する予定です。サブスクリプションに「DCR1」というデータ収集ルール（DCR）を作成します。DCR1を何に関連付けるべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -3047,7 +3046,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 125,
-    "question": "Microsoft Intune に登録されている 100 台の iOS デバイスを含む Microsoft 365 E5 サブスクリプションがあります。iOS アップデートの通知が、アップデートのリリース後 30 日間延期されるようにする必要があります。何を作成すればよいでしょうか？ A. iOS アプリ プロビジョニング プロファイル B. デバイス機能テンプレートに基づくデバイス構成プロファイル C. iOS/iPadOS の更新ポリシー D. デバイス制限テンプレートに基づくデバイス構成プロファイル 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Microsoft Intune に登録されている 100 台の iOS デバイスを含む Microsoft 365 E5 サブスクリプションがあります。iOS アップデートの通知が、アップデートのリリース後 30 日間延期されるようにする必要があります。何を作成すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -3124,7 +3123,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 128,
-    "question": "Microsoft Intune に登録されている Computer1 という Windows 10 デバイスがあります。Computer1 を、顧客向けの全画面アプリケーションを 1 つ実行するパブリック ワークステーションとして構成する必要があります。Microsoft Intune 管理センターでは、どの種類の構成プロファイル テンプレートを使用すべきでしょうか？ A. 複数ユーザー共有デバイス B. デバイス制限 C. キオスク D. エンドポイント保護 推奨回答を表示 回答を非表示 推奨回答: C 🗳️",
+    "question": "Microsoft Intune に登録されている Computer1 という Windows 10 デバイスがあります。Computer1 を、顧客向けの全画面アプリケーションを 1 つ実行するパブリック ワークステーションとして構成する必要があります。Microsoft Intune 管理センターでは、どの種類の構成プロファイル テンプレートを使用すべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -3177,7 +3176,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 130,
-    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションを所有しています。Windows Autopilot を使用して Windows 11 デバイスを展開する予定です。Autopilot のプロビジョニング中に、以下の要件を満たす必要があります。• アプリとプロファイルの構成の進行状況を表示する。• すべてのアプリとプロファイルがインストールされるまで、ユーザーがデバイスを使用できないようにする。何を構成する必要がありますか？ A. アプリ構成ポリシー B. アプリ保護ポリシー C. 登録デバイスプラットフォームの制限 D. 登録ステータスページ 回答の候補を表示 回答を非表示 回答の候補: D 🗳️",
+    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションを所有しています。Windows Autopilot を使用して Windows 11 デバイスを展開する予定です。Autopilot のプロビジョニング中に、以下の要件を満たす必要があります。• アプリとプロファイルの構成の進行状況を表示する。• すべてのアプリとプロファイルがインストールされるまで、ユーザーがデバイスを使用できないようにする。何を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -3201,7 +3200,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 131,
-    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションを所有しています。Microsoft Intune を使用して Windows デバイスの展開と管理を行っています。退職したユーザーからデバイスを 100 台受け取りました。以前のユーザーがインストールしたデータとアプリケーションをすべて削除し、新しいユーザー向けにデバイスを再利用する必要があります。このソリューションでは、管理の手間を最小限に抑える必要があります。どうすればよいでしょうか？ A. デバイスに新しい構成プロファイルを展開する。B. デバイスで Windows Autopilot のリセットを実行する。C. デバイスでインプレースアップグレードを実行する。D. デバイスに Windows 11 のクリーンインストールを実行する。 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションを所有しています。Microsoft Intune を使用して Windows デバイスの展開と管理を行っています。退職したユーザーからデバイスを 100 台受け取りました。以前のユーザーがインストールしたデータとアプリケーションをすべて削除し、新しいユーザー向けにデバイスを再利用する必要があります。このソリューションでは、管理の手間を最小限に抑える必要があります。どうすればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -3225,7 +3224,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 132,
-    "question": "Microsoft Intune を使用して 1,000 台のデバイスを管理しています。デバイス コンプライアンス傾向レポートを確認します。レポートにはどのくらいの期間、傾向データが表示されますか？ A. 30 日間 B. 60 日間 C. 90 日間 D. 365 日間 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft Intune を使用して 1,000 台のデバイスを管理しています。デバイス コンプライアンス傾向レポートを確認します。レポートにはどのくらいの期間、傾向データが表示されますか？",
     "choices": [
       {
         "letter": "A",
@@ -3249,7 +3248,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 133,
-    "question": "Microsoft 365 Business Standard サブスクリプションと 100 台の Windows 10 Pro デバイスを所有しています。Microsoft 365 E5 サブスクリプションを購入しました。Windows 10 Pro デバイスを Windows 10 Enterprise にアップグレードする必要があります。このソリューションでは、管理作業を最小限に抑える必要があります。どのアップグレード方法を使用すべきでしょうか？ A. Windows Autopilot B. Microsoft Deployment Toolkit (MDT) ライトタッチ展開 C. サブスクリプションのライセンス認証 D. Windows インストールメディアを使用したインプレースアップグレード 回答の候補を表示 回答を非表示 回答の候補: C 🗳️",
+    "question": "Microsoft 365 Business Standard サブスクリプションと 100 台の Windows 10 Pro デバイスを所有しています。Microsoft 365 E5 サブスクリプションを購入しました。Windows 10 Pro デバイスを Windows 10 Enterprise にアップグレードする必要があります。このソリューションでは、管理作業を最小限に抑える必要があります。どのアップグレード方法を使用すべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -3333,7 +3332,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 136,
-    "question": "HOTSPOT\n-\nYou have computers that run Windows 10 and are configured by using Windows Autopilot.\nA user performs the following tasks on a computer named Computer1:\n•\tCreates a VPN connection to the corporate network\n•\tInstalls a Microsoft Store app named App1\n•\tConnections to a Wi-Fi network\nYou perform a Windows Autopilot Reset on Computer1.\nWhat will be the state of the computer when the user signs in? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - You have computers that run Windows 10 and are configured by using Windows Autopilot. A user performs the following tasks on a computer named Computer1: • Creates a VPN connection to the corporate network • Installs a Microsoft Store app named App1 • Connections to a Wi-Fi network You perform a Windows Autopilot Reset on Computer1. What will be the state of the computer when the user signs in? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -3349,7 +3348,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 137,
-    "question": "HOTSPOT\n-\nYou have a Microsoft 365 subscription.\nYou need to enable passwordless authentication for all users. The solution must meet the following requirements:\n•\tUsers in the research department cannot use mobile devices and must authenticate from unmanaged Linux devices by using an alternative method.\n•\tTo access services, users in the sales department must authenticate by using their mobile phone.\n•\tAdministrative effort must be minimized.\nWhich authentication method should you use for each department? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - You have a Microsoft 365 subscription. You need to enable passwordless authentication for all users. The solution must meet the following requirements: • Users in the research department cannot use mobile devices and must authenticate from unmanaged Linux devices by using an alternative method. • To access services, users in the sales department must authenticate by using their mobile phone. • Administrative effort must be minimized. Which authentication method should you use for each department? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -3365,7 +3364,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 138,
-    "question": "HOTSPOT -\nYou have a Microsoft 365 subscription that uses Microsoft Intune Suite.\nYou use Microsoft Intune to manage devices.\nYou need to configure an update ring that meets the following requirements:\n•\tFixes and improvements to existing Windows functionality can be deferred for 14 days but will install automatically seven days after that date.\n•\tThe installation of new Windows features can be deferred for 90 days but will install automatically 10 days after that date.\n•\tDevices must restart automatically three days after an update is installed.\nHow should you configure the update ring? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - You have a Microsoft 365 subscription that uses Microsoft Intune Suite. You use Microsoft Intune to manage devices. You need to configure an update ring that meets the following requirements: • Fixes and improvements to existing Windows functionality can be deferred for 14 days but will install automatically seven days after that date. • The installation of new Windows features can be deferred for 90 days but will install automatically 10 days after that date. • Devices must restart automatically three days after an update is installed. How should you configure the update ring? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -3421,7 +3420,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 141,
-    "question": "ネットワークにActive Directoryドメインサービス（AD DS）ドメインがあり、そのドメインにはWindows 10を実行するクライアントコンピューターが100台含まれています。現在、会社には展開インフラストラクチャがありません。会社はボリュームライセンス契約を通じてWindows 11のライセンスを購入しています。これらのコンピューターをWindows 11にアップグレードする方法を推奨する必要があります。ソリューションはライセンスコストを最小限に抑える必要があります。推奨事項にはどのようなものを含めるべきですか？ A. Windows Autopilot B. Configuration Manager C. サブスクリプションのアクティベーション D. Microsoft Deployment Toolkit（MDT） 推奨回答を表示 回答を非表示 推奨回答：D 🗳️",
+    "question": "ネットワークにActive Directoryドメインサービス（AD DS）ドメインがあり、そのドメインにはWindows 10を実行するクライアントコンピューターが100台含まれています。現在、会社には展開インフラストラクチャがありません。会社はボリュームライセンス契約を通じてWindows 11のライセンスを購入しています。これらのコンピューターをWindows 11にアップグレードする方法を推奨する必要があります。ソリューションはライセンスコストを最小限に抑える必要があります。推奨事項にはどのようなものを含めるべきですか？",
     "choices": [
       {
         "letter": "A",
@@ -3469,7 +3468,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 143,
-    "question": "You have the devices shown in the following table.\nYou plan to implement Microsoft Defender for Endpoint.\nYou need to identify which devices can be onboarded to Microsoft Defender for Endpoint.\nWhat should you identify?\nA.\nDevice1 only\nB.\nDevice2 only\nC.\nDevice1, Device2 only\nD.\nDevice1, Device2, and Device3 only\nE.\nDevice1, Device2, Device3, and Device4",
+    "question": "You have the devices shown in the following table. You plan to implement Microsoft Defender for Endpoint. You need to identify which devices can be onboarded to Microsoft Defender for Endpoint. What should you identify?",
     "choices": [
       {
         "letter": "A",
@@ -3502,7 +3501,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 144,
-    "question": "You have an Azure AD tenant named contoso.com.\nYou plan to purchase 25 computers that run Windows 11. You plan to deliver the computers directly to users.\nYou need to ensure that during the out-of-box experience (OBE), users are prompted to sign in, and then the computers are configured to use Microsoft Intune.\nWhich two components should you configure? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.\nA.\na provisioning package\nB.\nautomatic enrollment\nC.\nan unattend.xml answer file\nD.\na Windows Autopilot deployment profile for self-deploying mode\nE.\na Windows Autopilot deployment profile for user-driven mode",
+    "question": "You have an Azure AD tenant named contoso.com. You plan to purchase 25 computers that run Windows 11. You plan to deliver the computers directly to users. You need to ensure that during the out-of-box experience (OBE), users are prompted to sign in, and then the computers are configured to use Microsoft Intune. Which two components should you configure? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.",
     "choices": [
       {
         "letter": "A",
@@ -3530,7 +3529,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 145,
-    "question": "You need to assign the same deployment profile to all the computers that are configured by using Windows Autopilot.\nWhich two actions should you perform? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.\nA.\nCreate an Azure AD group that has dynamic membership rules and uses the ZTDID tag.\nB.\nCreate an Azure AD group that has dynamic membership rules and uses the operatingSystem tag.\nC.\nAssign a Windows Autopilot deployment profile to a group.\nD.\nJoin the computers to Azure AD.\nE.\nCreate a Group Policy object (GPO) that is linked to a domain.\nF.\nJoin the computers to an on-premises Active Directory domain.",
+    "question": "You need to assign the same deployment profile to all the computers that are configured by using Windows Autopilot. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point. A. Create an Azure AD group that has dynamic membership rules and uses the ZTDID tag. B. Create an Azure AD group that has dynamic membership rules and uses the operatingSystem tag. C. Assign a Windows Autopilot deployment profile to a group. D. Join the computers to Azure AD. E. Create a Group Policy object (GPO) that is linked to a domain. F. Join the computers to an on-premises Active Directory domain.",
     "choices": [
       {
         "letter": "A",
@@ -3562,7 +3561,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 146,
-    "question": "Your network contains an Active Directory domain. The domain contains 10 computers that run Windows 10. Users in the finance department use the computers.\nYou have a computer named Computer1 that runs Windows 10.\nFrom Computer1, you plan to run a script that executes Windows PowerShell commands on the finance department computers.\nYou need to ensure that you can run the PowerShell commands on the finance department computers from Computer.\nWhat should you do on the finance department computers?\nA.\nFrom Windows PowerShell, run the Enable-MMAgent cmdlet.\nB.\nFrom the local Group Policy, enable the Allow Remote Shell Access setting.\nC.\nFrom Windows PowerShell, run the Enable-PSRemoting cmdlet.\nD.\nFrom the local Group Policy, enable the Turn on Script Execution setting.",
+    "question": "Your network contains an Active Directory domain. The domain contains 10 computers that run Windows 10. Users in the finance department use the computers. You have a computer named Computer1 that runs Windows 10. From Computer1, you plan to run a script that executes Windows PowerShell commands on the finance department computers. You need to ensure that you can run the PowerShell commands on the finance department computers from Computer. What should you do on the finance department computers?",
     "choices": [
       {
         "letter": "A",
@@ -3586,7 +3585,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 147,
-    "question": "You have a Microsoft 365 E5 subscription that contains the users shown in the following table.\nIn the Microsoft 365 Apps admin center, you create a Microsoft Office customization.\nWhich users can download the Office customization file from the admin center?\nA.\nAdmin3 only\nB.\nAdmin1 and Admin3 only\nC.\nAdmin3 and Admin4 only\nD.\nAdmin1, Admin2, and Admin3 only\nE.\nAdmin1, Admin2, Admin3, Admin4",
+    "question": "You have a Microsoft 365 E5 subscription that contains the users shown in the following table. In the Microsoft 365 Apps admin center, you create a Microsoft Office customization. Which users can download the Office customization file from the admin center?",
     "choices": [
       {
         "letter": "A",
@@ -3619,7 +3618,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 148,
-    "question": "HOTSPOT\n-\nYou have a Microsoft 365 subscription.\nAll computers are enrolled in Microsoft Intune.\nYou have business requirements for securing your Windows 11 environment as shown in the following table.\nWhat should you implement to meet each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - You have a Microsoft 365 subscription. All computers are enrolled in Microsoft Intune. You have business requirements for securing your Windows 11 environment as shown in the following table. What should you implement to meet each requirement? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -3639,7 +3638,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 149,
-    "question": "HOTSPOT\n-\nYou have a Microsoft 365 tenant that uses Microsoft Intune and contains the devices shown in the following table.\nIn Microsoft Intune Endpoint security, you need to configure a disk encryption policy for each device.\nWhich encryption type should you use for each device, and which role-based access control (RBAC) role in Intune should you use to manage the encryption keys? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - You have a Microsoft 365 tenant that uses Microsoft Intune and contains the devices shown in the following table. In Microsoft Intune Endpoint security, you need to configure a disk encryption policy for each device. Which encryption type should you use for each device, and which role-based access control (RBAC) role in Intune should you use to manage the encryption keys? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -3659,7 +3658,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 150,
-    "question": "DRAG DROP\n-\nYou have a Microsoft 365 subscription that uses Microsoft Defender for Endpoint.\nYou plan to onboard the following types of devices to Defender for Endpoint:\n•\tmacOS\n•\tLinux Server\nWhat should you use to onboard each device? To answer, drag the appropriate tools to the correct device types. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
+    "question": "DRAG DROP - You have a Microsoft 365 subscription that uses Microsoft Defender for Endpoint. You plan to onboard the following types of devices to Defender for Endpoint: • macOS • Linux Server What should you use to onboard each device? To answer, drag the appropriate tools to the correct device types. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -3675,7 +3674,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 151,
-    "question": "HOTSPOT -\nYou have a Microsoft 365 subscription that uses Microsoft Intune and contains 100 Windows 10 devices.\nYou need to create Intune configuration profiles to perform the following actions on the devices:\n•\tDeploy a custom Start layout.\n•\tRename the local Administrator account.\nWhich profile type template should you use for each action? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - You have a Microsoft 365 subscription that uses Microsoft Intune and contains 100 Windows 10 devices. You need to create Intune configuration profiles to perform the following actions on the devices: • Deploy a custom Start layout. • Rename the local Administrator account. Which profile type template should you use for each action? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -3691,7 +3690,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 152,
-    "question": "You have a Microsoft 365 subscription that uses Microsoft Intune Suite.\nYou use Microsoft Intune to manage Windows 11 devices.\nYou create a new policy set named Set and add five device configuration profiles for Windows 10 and later.\nYou create a device compliance policy named Policy1.\nYou need to ensure that when users are assigned the device configuration profiles in Set1, they are always assigned Policy1 also.\nWhat should you configure?\nA.\nthe assignments of Policy1\nB.\nthe Policy1 configurations\nC.\nthe assignments of Set1\nD.\nthe Set1 configurations",
+    "question": "You have a Microsoft 365 subscription that uses Microsoft Intune Suite. You use Microsoft Intune to manage Windows 11 devices. You create a new policy set named Set and add five device configuration profiles for Windows 10 and later. You create a device compliance policy named Policy1. You need to ensure that when users are assigned the device configuration profiles in Set1, they are always assigned Policy1 also. What should you configure?",
     "choices": [
       {
         "letter": "A",
@@ -3715,7 +3714,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 153,
-    "question": "次の表に示すデバイスを含む Microsoft 365 テナントがあります。デバイスは Microsoft Intune を使用して管理されています。Policy1 というコンプライアンス ポリシーを作成し、Policy1 を Group1 に割り当てます。Policy1 は、デバイスのセキュリティ設定がポリシーで指定された設定と一致する場合にのみ、デバイスを準拠としてマークするように構成されています。Group1 のメンバーではないデバイスが準拠として表示されていることがわかりました。コンプライアンス ポリシーが割り当てられたデバイスのみが準拠として表示されるようにする必要があります。その他のデバイスはすべて非準拠として表示される必要があります。Microsoft Intune 管理センターから何をすればよいですか? A. デバイス コンプライアンスからコンプライアンス ポリシー設定を構成します。B. エンドポイント セキュリティから条件付きアクセス設定を構成します。C. テナント管理から診断設定を変更します。D. Policy1 から、非準拠に対するアクションを変更します。 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "次の表に示すデバイスを含む Microsoft 365 テナントがあります。デバイスは Microsoft Intune を使用して管理されています。Policy1 というコンプライアンス ポリシーを作成し、Policy1 を Group1 に割り当てます。Policy1 は、デバイスのセキュリティ設定がポリシーで指定された設定と一致する場合にのみ、デバイスを準拠としてマークするように構成されています。Group1 のメンバーではないデバイスが準拠として表示されていることがわかりました。コンプライアンス ポリシーが割り当てられたデバイスのみが準拠として表示されるようにする必要があります。その他のデバイスはすべて非準拠として表示される必要があります。Microsoft Intune 管理センターから何をすればよいですか?",
     "choices": [
       {
         "letter": "A",
@@ -3744,7 +3743,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 154,
-    "question": "ネットワークにcontoso.comというActive Directoryドメインがあります。このドメインには、Windows 11を実行するコンピューターが25台あります。Microsoft 365サブスクリプションがあり、contoso.comと同期するAzure ADテナントがあります。ハイブリッドAzure AD参加を構成し、一部のコンピューターの登録状態が「保留中」になっていることを発見しました。コンピューターが正常に参加を完了することを確認する必要があります。何を確認する必要がありますか？A. すべてのコンピューターでWindowsがライセンス認証されていること B. コンピューターのユーザーにMicrosoft 365ライセンスが割り当てられていること C. 各コンピューターがドメインコントローラーと通信できること D. コンピューターに最新の品質更新プログラムが適用されていること 回答を表示 回答を非表示 回答の候補: C 🗳️",
+    "question": "ネットワークにcontoso.comというActive Directoryドメインがあります。このドメインには、Windows 11を実行するコンピューターが25台あります。Microsoft 365サブスクリプションがあり、contoso.comと同期するAzure ADテナントがあります。ハイブリッドAzure AD参加を構成し、一部のコンピューターの登録状態が「保留中」になっていることを発見しました。コンピューターが正常に参加を完了することを確認する必要があります。何を確認する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -3844,7 +3843,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 159,
-    "question": "Microsoft 365 サブスクリプションをご利用です。Android デバイス上の企業データを保護するために、アプリ保護ポリシーを使用しています。Android デバイスから接続するすべてのユーザーが、モバイル アプリケーション管理 (MAM) をサポートするアプリから接続した場合にのみ企業データにアクセスできるようにする必要があります。何を構成する必要がありますか？ A. アプリ構成ポリシー B. 条件付きアクセスポリシー C. デバイス構成プロファイル D. デバイス コンプライアンス ポリシー 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Microsoft 365 サブスクリプションをご利用です。Android デバイス上の企業データを保護するために、アプリ保護ポリシーを使用しています。Android デバイスから接続するすべてのユーザーが、モバイル アプリケーション管理 (MAM) をサポートするアプリから接続した場合にのみ企業データにアクセスできるようにする必要があります。何を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -3868,7 +3867,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 160,
-    "question": "Microsoft 365 E5 サブスクリプションをお持ちです。Microsoft Intune に登録されておらず、アプリ保護ポリシーが割り当てられているすべてのデバイスを一覧表示するレポートをダウンロードする必要があります。Microsoft Intune 管理センターでは、どの項目を選択すればよいですか？ A. レポート、デバイスコンプライアンス B. アプリ、アプリ保護ポリシー C. デバイス、モニター D. アプリ、モニター 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションをお持ちです。Microsoft Intune に登録されておらず、アプリ保護ポリシーが割り当てられているすべてのデバイスを一覧表示するレポートをダウンロードする必要があります。Microsoft Intune 管理センターでは、どの項目を選択すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -3972,7 +3971,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 165,
-    "question": "contoso.com という Azure AD テナントに関連付けられた Microsoft Intune サブスクリプションがあります。ユーザーは、テナントにサインインする際に、us.contoso.com、eu.contoso.com、または contoso.com のいずれかのサフィックスを使用します。ユーザーが登録プロセスの一環としてモバイルデバイス管理 (MDM) 登録 URL を指定する必要がないようにする必要があります。ソリューションでは、変更回数を最小限に抑える必要があります。必要な DNS レコードはどれですか？ A. TXT レコード 1 つ B. CNAME レコード 3 つ C. TXT レコード 3 つ D. CNAME レコード 1 つ 回答を表示 回答を非表示 回答: B 🗳️",
+    "question": "contoso.com という Azure AD テナントに関連付けられた Microsoft Intune サブスクリプションがあります。ユーザーは、テナントにサインインする際に、us.contoso.com、eu.contoso.com、または contoso.com のいずれかのサフィックスを使用します。ユーザーが登録プロセスの一環としてモバイルデバイス管理 (MDM) 登録 URL を指定する必要がないようにする必要があります。ソリューションでは、変更回数を最小限に抑える必要があります。必要な DNS レコードはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -3996,7 +3995,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 166,
-    "question": "Microsoft 365 サブスクリプションがあり、User1 というユーザーが Microsoft Intune Suite を使用しています。Microsoft Intune を使用して Windows 11 を実行するデバイスを管理しています。登録されているすべてのデバイスのローカル Administrators グループから User1 を削除する必要があります。何を構成すればよいですか？ A. デバイスコンプライアンスポリシー B. アカウント保護ポリシー C. アプリ構成ポリシー おすすめの回答を表示 回答を非表示 おすすめの回答: B 🗳️",
+    "question": "Microsoft 365 サブスクリプションがあり、User1 というユーザーが Microsoft Intune Suite を使用しています。Microsoft Intune を使用して Windows 11 を実行するデバイスを管理しています。登録されているすべてのデバイスのローカル Administrators グループから User1 を削除する必要があります。何を構成すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -4016,7 +4015,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 167,
-    "question": "DRAG DROP\n-\nYou have a Microsoft Deployment Toolkit (MDT) deployment share named DS1.\nYou import a Windows 11 image to DS1.\nYou have an executable installer for an application named App1.\nYou need to ensure that App1 will be installed for all the task sequences that deploy the image.\nWhich three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.",
+    "question": "DRAG DROP - You have a Microsoft Deployment Toolkit (MDT) deployment share named DS1. You import a Windows 11 image to DS1. You have an executable installer for an application named App1. You need to ensure that App1 will be installed for all the task sequences that deploy the image. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.",
     "choices": [],
     "answer": "",
     "images": [
@@ -4032,7 +4031,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 168,
-    "question": "HOTSPOT\n-\nYou have an Azure AD tenant that contains the following:\n•\tWindows 11 devices that are joined to Azure AD\n•\tA user that has a display name of User1 and a UPN of\n[email protected]\nYou enable Remote Desktop on the Windows 11 devices.\nYou need to ensure that User1 can use Remote Desktop to connect to the devices.\nHow should you complete the command that must be run on each device? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - You have an Azure AD tenant that contains the following: • Windows 11 devices that are joined to Azure AD • A user that has a display name of User1 and a UPN of [email protected] You enable Remote Desktop on the Windows 11 devices. You need to ensure that User1 can use Remote Desktop to connect to the devices. How should you complete the command that must be run on each device? To answer, select the appropriate options in the answer area NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -4048,7 +4047,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 169,
-    "question": "HOTSPOT\n-\nYour network contains an Active Directory domain. Active Directory is synced with Azure AD.\nThere are 500 Active Directory domain-joined computers that run Windows 10 and are enrolled in Microsoft Intune.\nYou plan to implement Microsoft Defender Exploit Guard.\nYou need to create a custom Microsoft Defender Exploit Guard policy, and then distribute the policy to all the computers.\nWhat should you do? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
+    "question": "HOTSPOT - Your network contains an Active Directory domain. Active Directory is synced with Azure AD. There are 500 Active Directory domain-joined computers that run Windows 10 and are enrolled in Microsoft Intune. You plan to implement Microsoft Defender Exploit Guard. You need to create a custom Microsoft Defender Exploit Guard policy, and then distribute the policy to all the computers. What should you do? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.",
     "choices": [],
     "answer": "",
     "images": [
@@ -4064,7 +4063,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 170,
-    "question": "You have devices enrolled in Microsoft Intune as shown in the following table.\nFor which devices can you manage updates by using Intune?\nA.\nDevice1 only\nB.\nDevice1 and Device2 only\nC.\nDevice1 and Device3 only\nD.\nDevice1, Device3, and Device4 only\nE.\nDevice1, Device2, Device3, and Device4",
+    "question": "You have devices enrolled in Microsoft Intune as shown in the following table. For which devices can you manage updates by using Intune? A. Device1 only B. Device1 and Device2 only C. Device1 and Device3 only D. Device1, Device3, and Device4 only E. Device1, Device2, Device3, and Device4",
     "choices": [
       {
         "letter": "A",
@@ -4097,7 +4096,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 171,
-    "question": "Windows 10 を実行するコンピューターが 500 台あります。これらのコンピューターは Azure AD に参加しており、Microsoft Intune に登録されています。Simple Certificate Enrollment Protocol (SCEP) を使用して、これらのコンピューターに証明書を配布する予定です。次の表に示すサーバーがあります。NDES は下位 CA から証明書を発行します。図に示すように、デバイス構成プロファイルを構成しています。(図のタブをクリックしてください。) SCEP プロファイルを完了する必要があります。必要なルート証明書はどのサーバーにありますか? A. Server1 B. Server2 C. Server3 D. Server4 回答を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Windows 10 を実行するコンピューターが 500 台あります。これらのコンピューターは Azure AD に参加しており、Microsoft Intune に登録されています。Simple Certificate Enrollment Protocol (SCEP) を使用して、これらのコンピューターに証明書を配布する予定です。次の表に示すサーバーがあります。NDES は下位 CA から証明書を発行します。図に示すように、デバイス構成プロファイルを構成しています。(図のタブをクリックしてください。) SCEP プロファイルを完了する必要があります。必要なルート証明書はどのサーバーにありますか?",
     "choices": [
       {
         "letter": "A",
@@ -4254,7 +4253,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 177,
-    "question": "Microsoft 365 サブスクリプションがあり、Microsoft Intune に登録されている Android デバイスが 1,000 台あります。次の設定を含むアプリ構成ポリシーを作成します。 • デバイス登録の種類: 管理対象デバイス • プロファイルの種類: すべてのプロファイルの種類 • プラットフォーム: Android Enterprise このポリシーに関連付けることができるアプリの種類はどれですか? 正解ごとに完全なソリューションが提示されます。注: 正解は 1 つにつき 1 ポイントです。 A. Android Enterprise システムアプリ B. Web リンク C. Android ストアアプリ D. マネージド Google Play ストアアプリ E. 組み込み Android アプリ 回答の候補を表示 回答を非表示 回答の候補: AD 🗳️",
+    "question": "Microsoft 365 サブスクリプションがあり、Microsoft Intune に登録されている Android デバイスが 1,000 台あります。次の設定を含むアプリ構成ポリシーを作成します。 • デバイス登録の種類: 管理対象デバイス • プロファイルの種類: すべてのプロファイルの種類 • プラットフォーム: Android Enterprise このポリシーに関連付けることができるアプリの種類はどれですか? 正解ごとに完全なソリューションが提示されます。注: 正解は 1 つにつき 1 ポイントです。",
     "choices": [
       {
         "letter": "A",
@@ -4347,7 +4346,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 181,
-    "question": "Hyper-Vホストがあります。このホストには、次の表に示すように、Windows 10を実行する仮想マシンが含まれています。Windows 11にアップグレードできる仮想マシンはどれですか？ A. VM1のみ B. VM2のみ C. VM2とVM3のみ D. VM1、VM2、VM3 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Hyper-Vホストがあります。このホストには、次の表に示すように、Windows 10を実行する仮想マシンが含まれています。Windows 11にアップグレードできる仮想マシンはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -4452,7 +4451,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 186,
-    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをお持ちです。Intune を使用して Windows 11 デバイスを管理しています。Windows ローカル管理者パスワードソリューション (Windows LAPS) を実装する必要があります。何を構成する必要がありますか？ A. 構成プロファイル B. アカウント保護ポリシー C. アプリ保護ポリシー D. デバイスコンプライアンスポリシー 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Microsoft Intune Suite を使用する Microsoft 365 サブスクリプションをお持ちです。Intune を使用して Windows 11 デバイスを管理しています。Windows ローカル管理者パスワードソリューション (Windows LAPS) を実装する必要があります。何を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -4476,7 +4475,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 187,
-    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションをご利用です。Android デバイスにカスタムアプリを展開する必要があります。アプリは APK ファイル形式を使用します。展開にはどの種類のアプリを選択すればよいですか？ A. 組み込み B. Android ストア C. マネージド Google Play D. 基幹業務 (LOB) E. Web リンク 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションをご利用です。Android デバイスにカスタムアプリを展開する必要があります。アプリは APK ファイル形式を使用します。展開にはどの種類のアプリを選択すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -4500,7 +4499,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 188,
-    "question": "Microsoft 365 E5 サブスクリプションを所有しています。Microsoft Intune を使用してすべてのデバイスを管理しています。展開用に App1.exe という Win32 アプリを準備する必要があります。まず何をすべきでしょうか？ A. Microsoft Intune 管理センターから、アプリ構成ポリシーを作成します。B. App1.exe を INTUNEWIN 形式に変更します。C. Microsoft 365 アプリ管理センターから、展開構成を作成します。D. App1.exe を Azure Blob Storage にアップロードします。 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションを所有しています。Microsoft Intune を使用してすべてのデバイスを管理しています。展開用に App1.exe という Win32 アプリを準備する必要があります。まず何をすべきでしょうか？ A. Microsoft Intune 管理センターから、アプリ構成ポリシーを作成します。B. App1.exe を INTUNEWIN 形式に変更します。C. Microsoft 365 アプリ管理センターから、展開構成を作成します。D. App1.exe を Azure Blob Storage にアップロードします。",
     "choices": [
       {
         "letter": "A",
@@ -4544,7 +4543,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 190,
-    "question": "Windows 365 Enterprise ライセンスを含む Microsoft 365 サブスクリプションを所有しています。クラウド PC のテンプレートとして、カスタム Windows 11 イメージを使用する予定です。Windows 11 を実行する Hyper-V 仮想マシンがあり、構成は以下のとおりです。• 名前: VM1 • ディスクサイズ: 64 GB • ディスク形式: VHDX • ディスクの種類: 固定サイズ • 世代: 第 2 世代 VM1 をカスタムイメージのソースとして使用できることを確認する必要があります。まず VM1 で何をすべきでしょうか? A. ディスクの種類を「動的拡張」に変更します。B. ディスク形式を VHD に変更します。C. 世代を第 1 世代に変更します。D. ディスクサイズを増やします。 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Windows 365 Enterprise ライセンスを含む Microsoft 365 サブスクリプションを所有しています。クラウド PC のテンプレートとして、カスタム Windows 11 イメージを使用する予定です。Windows 11 を実行する Hyper-V 仮想マシンがあり、構成は以下のとおりです。• 名前: VM1 • ディスクサイズ: 64 GB • ディスク形式: VHDX • ディスクの種類: 固定サイズ • 世代: 第 2 世代 VM1 をカスタムイメージのソースとして使用できることを確認する必要があります。まず VM1 で何をすべきでしょうか?",
     "choices": [
       {
         "letter": "A",
@@ -4568,7 +4567,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 191,
-    "question": "オンプレミス ネットワークに、contoso.com という Active Directory Domain Services (AD DS) ドメインが含まれています。このドメインには、dc1.contoso.com というドメイン コントローラーが含まれています。Microsoft Intune Suite を使用する Microsoft 365 E5 サブスクリプションがあります。次の表に示すリソースを含む Azure サブスクリプションがあります。このサブスクリプションには、次の表に示す仮想ネットワークが含まれています。Windows 365 Enterprise Cloud PC を展開する予定です。Microsoft Entra ハイブリッド参加を使用する Azure ネットワーク接続 (ANC) を作成する必要があります。ANC に使用できる仮想ネットワークはどれですか? A. VNet1 のみ B. VNet2 のみ C. VNet3 のみ D. VNet1 と VNet2 E. VNet1 と VNet3 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "オンプレミス ネットワークに、contoso.com という Active Directory Domain Services (AD DS) ドメインが含まれています。このドメインには、dc1.contoso.com というドメイン コントローラーが含まれています。Microsoft Intune Suite を使用する Microsoft 365 E5 サブスクリプションがあります。次の表に示すリソースを含む Azure サブスクリプションがあります。このサブスクリプションには、次の表に示す仮想ネットワークが含まれています。Windows 365 Enterprise Cloud PC を展開する予定です。Microsoft Entra ハイブリッド参加を使用する Azure ネットワーク接続 (ANC) を作成する必要があります。ANC に使用できる仮想ネットワークはどれですか?",
     "choices": [
       {
         "letter": "A",
@@ -4617,7 +4616,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 193,
-    "question": "Microsoft Intune が含まれており、Admin1 というユーザーが含まれている Microsoft 365 E5 サブスクリプションがあります。Admin1 は、Microsoft Intune 管理センターを使用して、次のタスクを実行する必要があります。 • Intune を使用して、アプリとポリシーを作成し、ユーザーとデバイスに割り当てる。 • Windows 365 クラウド PC プロビジョニング ポリシーを作成、割り当て、および削除する。 Admin1 に必要なロールを割り当てる必要があります。ソリューションは、次の要件を満たしている必要があります。 • 最小権限の原則に従う。 • 管理の労力を最小限に抑える。 何をすべきでしょうか。 A. Admin1 にヘルプ デスク オペレーター ロールを割り当てます。 B. Admin1 にクラウド PC リーダー ロールを割り当てます。 C. Admin1 にクラウド PC 管理者 ロールを割り当てます。 D. カスタムの Microsoft Entra ロールを作成し、そのロールを Admin1 に割り当てます。 E. カスタムの Intune ロールを作成し、そのロールを Admin1 に割り当てます。 推奨回答を表示 回答を非表示 推奨回答: E 🗳️",
+    "question": "Microsoft Intune が含まれており、Admin1 というユーザーが含まれている Microsoft 365 E5 サブスクリプションがあります。Admin1 は、Microsoft Intune 管理センターを使用して、次のタスクを実行する必要があります。 • Intune を使用して、アプリとポリシーを作成し、ユーザーとデバイスに割り当てる。 • Windows 365 クラウド PC プロビジョニング ポリシーを作成、割り当て、および削除する。 Admin1 に必要なロールを割り当てる必要があります。ソリューションは、次の要件を満たしている必要があります。 • 最小権限の原則に従う。 • 管理の労力を最小限に抑える。 何をすべきでしょうか。",
     "choices": [
       {
         "letter": "A",
@@ -4641,7 +4640,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 194,
-    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションがあります。サブスクリプションには、Intune に登録されている Windows 11 デバイスが含まれています。サブスクリプションには、Department1、Department2、Department3 という 3 つのグループが含まれています。Windows 11 デバイスに Microsoft 365 アプリを展開する必要があります。ソリューションは次の要件を満たす必要があります。 • Department1 と Department2 のユーザーには、Microsoft Project と Visio を含む完全な Microsoft 365 アプリ スイートが提供される必要があります。 • Department3 のユーザーには、Microsoft Project を含む完全な Microsoft 365 アプリ スイートが提供される必要がありますが、Visio は含まれません。 • その他すべてのユーザーには、Microsoft Project または Visio を含まない完全な Microsoft 365 アプリ スイートが提供される必要があります。 作成する必要がある展開の最小数はいくつですか? A. 1 B. 2 C. 3 D. 4 推奨回答を表示 回答を非表示 推奨回答: C 🗳️",
+    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションがあります。サブスクリプションには、Intune に登録されている Windows 11 デバイスが含まれています。サブスクリプションには、Department1、Department2、Department3 という 3 つのグループが含まれています。Windows 11 デバイスに Microsoft 365 アプリを展開する必要があります。ソリューションは次の要件を満たす必要があります。 • Department1 と Department2 のユーザーには、Microsoft Project と Visio を含む完全な Microsoft 365 アプリ スイートが提供される必要があります。 • Department3 のユーザーには、Microsoft Project を含む完全な Microsoft 365 アプリ スイートが提供される必要がありますが、Visio は含まれません。 • その他すべてのユーザーには、Microsoft Project または Visio を含まない完全な Microsoft 365 アプリ スイートが提供される必要があります。 作成する必要がある展開の最小数はいくつですか?",
     "choices": [
       {
         "letter": "A",
@@ -4665,7 +4664,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 195,
-    "question": "Microsoft Intune を使用する Microsoft 365 E5 サブスクリプションをご利用です。Intune を構成して、ログデータを Log Analytics に送信します。Intune への登録に失敗したデバイスに関するイベントを確認する必要があります。何を監視する必要がありますか？ A. 操作ログ B. 監査ログ C. Intune デバイスログ D. デバイスコンプライアンス組織ログ 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "Microsoft Intune を使用する Microsoft 365 E5 サブスクリプションをご利用です。Intune を構成して、ログデータを Log Analytics に送信します。Intune への登録に失敗したデバイスに関するイベントを確認する必要があります。何を監視する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -4689,7 +4688,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 196,
-    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションをご利用です。このサブスクリプションには、企業所有のフルマネージド Android Enterprise デバイスが含まれています。Profile1 というデバイス制限プロファイルタイプを持つ構成プロファイルを展開する予定です。Profile1 は、システム更新のためのメンテナンス期間を割り当てます。Profile1 の構成設定では、何を構成する必要がありますか？ A. デバイスエクスペリエンス B. 全般 C. 接続 D. 電源設定 回答を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft Intune を含む Microsoft 365 サブスクリプションをご利用です。このサブスクリプションには、企業所有のフルマネージド Android Enterprise デバイスが含まれています。Profile1 というデバイス制限プロファイルタイプを持つ構成プロファイルを展開する予定です。Profile1 は、システム更新のためのメンテナンス期間を割り当てます。Profile1 の構成設定では、何を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -4729,7 +4728,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 198,
-    "question": "Microsoft 365 E5 サブスクリプションをご利用です。すべての Windows デバイスは Microsoft Intune に登録されています。Policy1 というアプリ保護ポリシーを作成し、デバイスに適用する必要があります。Policy1 で保護できるものは何ですか？ A. Microsoft Outlook B. Microsoft OneDrive C. Microsoft Teams D. Microsoft Edge 回答を表示 回答を非表示 回答: D 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションをご利用です。すべての Windows デバイスは Microsoft Intune に登録されています。Policy1 というアプリ保護ポリシーを作成し、デバイスに適用する必要があります。Policy1 で保護できるものは何ですか？",
     "choices": [
       {
         "letter": "A",
@@ -4753,7 +4752,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 199,
-    "question": "Microsoft 365 E5 サブスクリプションをご利用です。すべてのデバイスは Microsoft Intune に登録されています。多要素認証 (MFA) を必要とする条件付きアクセスポリシー「Policy1」を作成します。Policy1 は、非準拠とマークされたデバイスにのみ適用されるようにする必要があります。Policy1 のどの設定を構成する必要がありますか？ A. 条件のデバイスプラットフォーム B. 条件のデバイスフィルター C. 対象リソース D. 許可 E. セッション 回答を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションをご利用です。すべてのデバイスは Microsoft Intune に登録されています。多要素認証 (MFA) を必要とする条件付きアクセスポリシー「Policy1」を作成します。Policy1 は、非準拠とマークされたデバイスにのみ適用されるようにする必要があります。Policy1 のどの設定を構成する必要がありますか？",
     "choices": [
       {
         "letter": "A",
@@ -4841,7 +4840,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 203,
-    "question": "Microsoft 365 E5 サブスクリプションをご利用です。Device1 というデバイスに対して、自動調査および対応 (AIR) 修復レベルを設定し、すべてのフォルダーに対して承認を必須にする必要があります。何を作成すればよいでしょうか？ A. セキュリティグループ B. デバイスグループ C. 管理単位 D. アクショングループ 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションをご利用です。Device1 というデバイスに対して、自動調査および対応 (AIR) 修復レベルを設定し、すべてのフォルダーに対して承認を必須にする必要があります。何を作成すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -4865,7 +4864,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 204,
-    "question": "次の表に示すデバイスを含むMicrosoft 365 E5サブスクリプションを所有しています。すべてのデバイスはMicrosoft Intuneに登録されており、Microsoft 365 Apps for enterpriseがインストールされています。Microsoft 365のクラウドポリシーサービスを使用してMicrosoft 365 Apps for enterpriseを管理できるデバイスはどれですか？ A. デバイス2のみ B. デバイス1とデバイス2のみ C. デバイス1、デバイス2、デバイス3のみ D. デバイス1、デバイス2、デバイス4のみ E. デバイス1、デバイス2、デバイス3、デバイス4 回答を表示 回答を非表示 回答の候補: E 🗳️",
+    "question": "次の表に示すデバイスを含むMicrosoft 365 E5サブスクリプションを所有しています。すべてのデバイスはMicrosoft Intuneに登録されており、Microsoft 365 Apps for enterpriseがインストールされています。Microsoft 365のクラウドポリシーサービスを使用してMicrosoft 365 Apps for enterpriseを管理できるデバイスはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -4938,7 +4937,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 207,
-    "question": "Microsoft 365 サブスクリプションを所有しています。Windows 10 を実行し、Microsoft Intune に登録されているコンピューターが 10 台あります。すべてのコンピューターに Microsoft 365 Apps for enterprise スイートを展開する必要があります。どうすればよいでしょうか? A. Microsoft Intune 管理センターからアプリを追加します。B. Microsoft Intune 管理センターから、Windows 10 以降のデバイス プロファイルを作成します。C. Microsoft Entra 管理センターからエンタープライズ アプリケーションを追加します。D. Microsoft Entra 管理センターからアプリ登録を追加します。 回答の候補を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "Microsoft 365 サブスクリプションを所有しています。Windows 10 を実行し、Microsoft Intune に登録されているコンピューターが 10 台あります。すべてのコンピューターに Microsoft 365 Apps for enterprise スイートを展開する必要があります。どうすればよいでしょうか? A. Microsoft Intune 管理センターからアプリを追加します。B. Microsoft Intune 管理センターから、Windows 10 以降のデバイス プロファイルを作成します。C. Microsoft Entra 管理センターからエンタープライズ アプリケーションを追加します。D. Microsoft Entra 管理センターからアプリ登録を追加します。",
     "choices": [
       {
         "letter": "A",
@@ -4962,7 +4961,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 208,
-    "question": "contoso.com という Microsoft Entra テナントがあります。Windows 11 を実行する Computer1 というワークグループコンピューターがあります。Computer1 を contoso.com に追加する必要があります。どのアプリを使うべきでしょうか？ A. 設定アプリ B. コンピューターの管理 C. netdom.exe 回答を表示 回答を隠す 回答: A 🗳️",
+    "question": "contoso.com という Microsoft Entra テナントがあります。Windows 11 を実行する Computer1 というワークグループコンピューターがあります。Computer1 を contoso.com に追加する必要があります。どのアプリを使うべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -4998,7 +4997,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 210,
-    "question": "Microsoft 365 E5 サブスクリプションをご利用です。Microsoft Intune に登録されている企業所有の Android Enterprise デバイスのオペレーティングシステムのアップデートを管理する必要があります。どの方法を利用すればよいでしょうか？ A. コンプライアンスポリシー B. Android FOTA 展開 C. エンドポイントセキュリティポリシー D. 構成プロファイル 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションをご利用です。Microsoft Intune に登録されている企業所有の Android Enterprise デバイスのオペレーティングシステムのアップデートを管理する必要があります。どの方法を利用すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -5022,7 +5021,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 211,
-    "question": "Microsoft 365 E5 サブスクリプションをご利用です。すべての Windows デバイスは Microsoft Intune に登録されています。すべてのデバイスにリモート ヘルプ アプリを展開する必要があります。このソリューションは管理作業を最小限に抑える必要があります。どの種類のアプリを展開すればよいですか？ A. Windows アプリ (Win32) B. 基幹業務 (LOB) C. Microsoft 365 D. Microsoft Store 回答を表示 回答を非表示 回答: A 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションをご利用です。すべての Windows デバイスは Microsoft Intune に登録されています。すべてのデバイスにリモート ヘルプ アプリを展開する必要があります。このソリューションは管理作業を最小限に抑える必要があります。どの種類のアプリを展開すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -5078,7 +5077,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 214,
-    "question": "ドラッグ アンド ドロップ - Microsoft 365 サブスクリプションを所有しています。Microsoft Intune にデバイスを登録する予定です。次の要件を満たす必要があります。• 特定の国際移動体装置識別子 (IMEI) を持つデバイスの登録のみを許可する。• 最大 1,000 台のデバイスの登録と管理をサポートする。各要件に対してどの登録設定を構成する必要がありますか? 回答するには、適切な設定を正しい要件にドラッグします。各設定は、1 回使用することも、複数回使用することも、まったく使用しないこともできます。コンテンツを表示するには、ペイン間の分割バーをドラッグするか、スクロールする必要がある場合があります。注: 正しい選択ごとに 1 ポイントが与えられます。 回答の候補を表示 回答を非表示 回答の候補:",
+    "question": "ドラッグ アンド ドロップ - Microsoft 365 サブスクリプションを所有しています。Microsoft Intune にデバイスを登録する予定です。次の要件を満たす必要があります。• 特定の国際移動体装置識別子 (IMEI) を持つデバイスの登録のみを許可する。• 最大 1,000 台のデバイスの登録と管理をサポートする。各要件に対してどの登録設定を構成する必要がありますか? 回答するには、適切な設定を正しい要件にドラッグします。各設定は、1 回使用することも、複数回使用することも、まったく使用しないこともできます。コンテンツを表示するには、ペイン間の分割バーをドラッグするか、スクロールする必要がある場合があります。注: 正しい選択ごとに 1 ポイントが与えられます。",
     "choices": [],
     "answer": "",
     "images": [
@@ -5114,7 +5113,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 216,
-    "question": "Microsoft 365 サブスクリプションをお持ちで、Microsoft Intune Suite を使用しています。サブスクリプションには、次の表に示すように Intune に登録されているデバイスが含まれています。デバイスクエリをサポートしているデバイスはどれですか？ A. デバイス1 のみ B. デバイス2 のみ C. デバイス1 とデバイス2 のみ D. デバイス1、デバイス2、デバイス3、デバイス4 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "Microsoft 365 サブスクリプションをお持ちで、Microsoft Intune Suite を使用しています。サブスクリプションには、次の表に示すように Intune に登録されているデバイスが含まれています。デバイスクエリをサポートしているデバイスはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -5143,7 +5142,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 217,
-    "question": "Microsoft Intune に登録されているデバイスを含む Microsoft 365 E5 サブスクリプションを所有しています。デバイスクエリを使用して、デバイスの状態に関するオンデマンド情報を提供する予定です。このソリューションはコストを最小限に抑える必要があります。まず何をすべきでしょうか？ A. 「診断情報の収集」リモートアクションを使用する。B. Intune Advanced Analytics アドオンを購入する。C. Intune Suite アドオンを購入する。D. デバイスをエンドポイント分析にオンボードする。 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft Intune に登録されているデバイスを含む Microsoft 365 E5 サブスクリプションを所有しています。デバイスクエリを使用して、デバイスの状態に関するオンデマンド情報を提供する予定です。このソリューションはコストを最小限に抑える必要があります。まず何をすべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -5260,7 +5259,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 222,
-    "question": "Microsoft 365 サブスクリプションを所有しています。デバイス管理には Microsoft Intune を使用しています。すべての Windows デバイスに App1 と App2 という 2 つのアプリを展開する予定です。App1 は App2 より先にインストールする必要があります。Intune 管理センターから、2 つの Windows アプリ (Win32) を作成して展開します。すべてのデバイスで、App1 が App2 より先にインストールされていることを確認する必要があります。どのような構成が必要ですか？ A. App1 の展開構成 B. 動的デバイスグループ C. App2 の展開構成 推奨回答を表示 回答を非表示 推奨回答: C 🗳️",
+    "question": "Microsoft 365 サブスクリプションを所有しています。デバイス管理には Microsoft Intune を使用しています。すべての Windows デバイスに App1 と App2 という 2 つのアプリを展開する予定です。App1 は App2 より先にインストールする必要があります。Intune 管理センターから、2 つの Windows アプリ (Win32) を作成して展開します。すべてのデバイスで、App1 が App2 より先にインストールされていることを確認する必要があります。どのような構成が必要ですか？",
     "choices": [
       {
         "letter": "A",
@@ -5304,7 +5303,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 224,
-    "question": "Microsoft 365 E5 サブスクリプションを所有し、Microsoft Intune を使用しています。すべての Windows デバイスに個人ユーザー証明書を展開する Microsoft Cloud PKI ソリューションを実装する予定です。このソリューションをサポートするために必要な構成プロファイルの最小数はいくつですか？ A. 1 B. 2 C. 3 D. 4 回答を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションを所有し、Microsoft Intune を使用しています。すべての Windows デバイスに個人ユーザー証明書を展開する Microsoft Cloud PKI ソリューションを実装する予定です。このソリューションをサポートするために必要な構成プロファイルの最小数はいくつですか？",
     "choices": [
       {
         "letter": "A",
@@ -5388,7 +5387,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 228,
-    "question": "Microsoft 365 E5 サブスクリプションがあり、Group1 というグループが含まれています。Group1 のメンバーのみがデバイスを Microsoft Entra テナントに参加できるようにする必要があります。Microsoft Entra 管理センターで設定すべき項目は何ですか？ A. デバイス設定 B. モビリティ C. Enterprise State Roaming D. ユーザー設定 おすすめの回答を表示 回答を非表示 おすすめの回答: A 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションがあり、Group1 というグループが含まれています。Group1 のメンバーのみがデバイスを Microsoft Entra テナントに参加できるようにする必要があります。Microsoft Entra 管理センターで設定すべき項目は何ですか？",
     "choices": [
       {
         "letter": "A",
@@ -5432,7 +5431,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 230,
-    "question": "contoso.com という Microsoft Entra テナントがあり、そこには Device1 という Windows 11 デバイスと User1 というユーザーがいます。User1 は contoso.com に Device1 を登録します。contoso.com に登録後、Device1 はどの機能を利用できますか？ A. シングルサインオン (SSO) を使用したクラウドリソースへの認証 B. コンプライアンスポリシーの適用 C. ソフトウェア更新の適用 D. ハードドライブ暗号化の適用 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "contoso.com という Microsoft Entra テナントがあり、そこには Device1 という Windows 11 デバイスと User1 というユーザーがいます。User1 は contoso.com に Device1 を登録します。contoso.com に登録後、Device1 はどの機能を利用できますか？",
     "choices": [
       {
         "letter": "A",
@@ -5480,7 +5479,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 232,
-    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問では、問題に対する独自の解決策が提示されます。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。contoso.com という名前の Microsoft Entra テナントがあります。Device1 という名前の Android デバイスを購入しました。contoso.com で Device1 を登録する必要があります。解決策: Microsoft Authenticator アプリを使用します。これは目標を満たしていますか? A. はい B. いいえ 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問では、問題に対する独自の解決策が提示されます。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。contoso.com という名前の Microsoft Entra テナントがあります。Device1 という名前の Android デバイスを購入しました。contoso.com で Device1 を登録する必要があります。解決策: Microsoft Authenticator アプリを使用します。これは目標を満たしていますか?",
     "choices": [
       {
         "letter": "A",
@@ -5496,7 +5495,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 233,
-    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問は、問題に対する独自の解決策を提示します。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。Microsoft 365 E5 サブスクリプションがあります。サブスクリプションには、Microsoft Entra に参加し、Microsoft Intune に登録されているデバイスが含まれています。User1 という名前のユーザーを作成します。User1 が Intune を使用して BitLocker 回復キーをローテーションできるようにする必要があります。解決策: Microsoft Entra 管理センターから、ヘルプデスク管理者の役割を User1 に割り当てます。これは目標を満たしていますか? A. はい B. いいえ 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問は、問題に対する独自の解決策を提示します。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。Microsoft 365 E5 サブスクリプションがあります。サブスクリプションには、Microsoft Entra に参加し、Microsoft Intune に登録されているデバイスが含まれています。User1 という名前のユーザーを作成します。User1 が Intune を使用して BitLocker 回復キーをローテーションできるようにする必要があります。解決策: Microsoft Entra 管理センターから、ヘルプデスク管理者の役割を User1 に割り当てます。これは目標を満たしていますか?",
     "choices": [
       {
         "letter": "A",
@@ -5512,7 +5511,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 234,
-    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問は、問題に対する独自の解決策を提示します。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。Microsoft 365 E5 サブスクリプションがあります。サブスクリプションには、Microsoft Entra に参加し、Microsoft Intune に登録されているデバイスが含まれています。User1 という名前のユーザーを作成します。User1 が Intune を使用して BitLocker 回復キーをローテーションできるようにする必要があります。解決策: Microsoft Intune 管理センターから、User1 にヘルプデスクオペレーターの役割を割り当てます。これは目標を満たしていますか? A. はい B. いいえ 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問は、問題に対する独自の解決策を提示します。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。Microsoft 365 E5 サブスクリプションがあります。サブスクリプションには、Microsoft Entra に参加し、Microsoft Intune に登録されているデバイスが含まれています。User1 という名前のユーザーを作成します。User1 が Intune を使用して BitLocker 回復キーをローテーションできるようにする必要があります。解決策: Microsoft Intune 管理センターから、User1 にヘルプデスクオペレーターの役割を割り当てます。これは目標を満たしていますか?",
     "choices": [
       {
         "letter": "A",
@@ -5528,7 +5527,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 235,
-    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問は、問題に対する独自の解決策を提示します。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。Microsoft 365 E5 サブスクリプションがあります。サブスクリプションには、Microsoft Entra に参加し、Microsoft Intune に登録されているデバイスが含まれています。User1 という名前のユーザーを作成します。User1 が Intune を使用して BitLocker 回復キーをローテーションできるようにする必要があります。解決策: Microsoft Intune 管理センターから、エンドポイント セキュリティ マネージャーの役​​割を User1 に割り当てます。これは目標を満たしていますか? A. はい B. いいえ 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問は、問題に対する独自の解決策を提示します。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。Microsoft 365 E5 サブスクリプションがあります。サブスクリプションには、Microsoft Entra に参加し、Microsoft Intune に登録されているデバイスが含まれています。User1 という名前のユーザーを作成します。User1 が Intune を使用して BitLocker 回復キーをローテーションできるようにする必要があります。解決策: Microsoft Intune 管理センターから、エンドポイント セキュリティ マネージャーの役​​割を User1 に割り当てます。これは目標を満たしていますか?",
     "choices": [
       {
         "letter": "A",
@@ -5544,7 +5543,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 236,
-    "question": "Device1 というデバイスを含む Microsoft Entra テナントがあります。Device1 は Microsoft Entra に参加しています。Device1 の Microsoft Entra ID プライマリリフレッシュトークン (PRT) を検証する必要があります。どのコマンドを実行すればよいですか？ A. klist tgt B. dsregcmd /status C. query session D. sc.exe query state=all 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Device1 というデバイスを含む Microsoft Entra テナントがあります。Device1 は Microsoft Entra に参加しています。Device1 の Microsoft Entra ID プライマリリフレッシュトークン (PRT) を検証する必要があります。どのコマンドを実行すればよいですか？",
     "choices": [
       {
         "letter": "A",
@@ -5568,7 +5567,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 237,
-    "question": "ネットワークには、contoso.com という Microsoft Entra テナントと同期するオンプレミスの Active Directory ドメイン サービス (AD DS) ドメインが含まれています。contoso.com に 100 台の Windows 11 デバイスを展開する必要があります。ソリューションは以下の要件を満たす必要があります。• ユーザーがデバイスからオンプレミスのファイル サーバー上の共有に資格情報の入力を求められることなくアクセスできることを保証する。• デバイス ID 管理におけるオンプレミス インフラストラクチャへの依存を最小限に抑える。どの参加タイプを使用すればよいですか? A. Active Directory ドメイン参加 B. Microsoft Entra ハイブリッド参加 C. Microsoft Entra 参加 D. Microsoft Entra 登録 回答を表示 回答を非表示 回答の候補: C 🗳️",
+    "question": "ネットワークには、contoso.com という Microsoft Entra テナントと同期するオンプレミスの Active Directory ドメイン サービス (AD DS) ドメインが含まれています。contoso.com に 100 台の Windows 11 デバイスを展開する必要があります。ソリューションは以下の要件を満たす必要があります。• ユーザーがデバイスからオンプレミスのファイル サーバー上の共有に資格情報の入力を求められることなくアクセスできることを保証する。• デバイス ID 管理におけるオンプレミス インフラストラクチャへの依存を最小限に抑える。どの参加タイプを使用すればよいですか?",
     "choices": [
       {
         "letter": "A",
@@ -5592,7 +5591,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 238,
-    "question": "次の表に示すように、Microsoft Intune に登録されているデバイスを含む Microsoft 365 サブスクリプションを所有しています。カスタム通知を送信するには、一括デバイスアクションを使用する必要があります。カスタム通知を送信できるデバイスはどれですか？ A. デバイス1 のみ B. デバイス2 のみ C. デバイス3 のみ D. デバイス2 とデバイス3 のみ E. デバイス1、デバイス2、デバイス3 推奨回答を表示 回答を非表示 推奨回答: D 🗳️",
+    "question": "次の表に示すように、Microsoft Intune に登録されているデバイスを含む Microsoft 365 サブスクリプションを所有しています。カスタム通知を送信するには、一括デバイスアクションを使用する必要があります。カスタム通知を送信できるデバイスはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -5681,7 +5680,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 242,
-    "question": "Microsoft 365 E5 サブスクリプションを所有しています。以下の種類のデバイスを購入します。 • Windows • Android • iOS Microsoft Intune にデバイスを登録する予定です。登録制限を構成する必要があります。デバイスメーカーによる制限を構成できるデバイスの種類はどれですか？ A. Android のみ B. Windows のみ C. Android と iOS のみ D. Windows と iOS のみ E. Windows、Android、iOS 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションを所有しています。以下の種類のデバイスを購入します。 • Windows • Android • iOS Microsoft Intune にデバイスを登録する予定です。登録制限を構成する必要があります。デバイスメーカーによる制限を構成できるデバイスの種類はどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -5737,7 +5736,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 245,
-    "question": "Microsoft 365 サブスクリプションを所有し、Microsoft Intune Suite を使用しています。Microsoft Cloud PKI を使用して、メールメッセージの署名と暗号化をサポートする予定です。まず何をすべきでしょうか？A. ルート証明機関 (CA) を作成します。B. デバイスコンプライアンスポリシーを作成します。C. デバイス構成 SCEP 証明書プロファイルを作成します。D. デバイス構成の信頼済み証明書プロファイルを作成します。E. 発行証明機関 (CA) を作成します。回答の候補を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "Microsoft 365 サブスクリプションを所有し、Microsoft Intune Suite を使用しています。Microsoft Cloud PKI を使用して、メールメッセージの署名と暗号化をサポートする予定です。まず何をすべきでしょうか？A. ルート証明機関 (CA) を作成します。B. デバイスコンプライアンスポリシーを作成します。C. デバイス構成 SCEP 証明書プロファイルを作成します。D. デバイス構成の信頼済み証明書プロファイルを作成します。E. 発行証明機関 (CA) を作成します。",
     "choices": [
       {
         "letter": "A",
@@ -5781,7 +5780,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 247,
-    "question": "Microsoft 365 E5 サブスクリプションがあり、以下の種類のデバイスが含まれています: • Windows 11 • Android • iOS すべてのデバイスが Microsoft Intune に登録されています。エンタープライズ アプリ カタログからアプリを展開するには、Intune を使用する必要があります。どの種類のデバイスにアプリを展開できますか? A. Windows 11 のみ B. Windows 11 と Android のみ C. Windows 11 のみ D. Android と iOS のみ E. Windows 11、Android、および iOS 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションがあり、以下の種類のデバイスが含まれています: • Windows 11 • Android • iOS すべてのデバイスが Microsoft Intune に登録されています。エンタープライズ アプリ カタログからアプリを展開するには、Intune を使用する必要があります。どの種類のデバイスにアプリを展開できますか?",
     "choices": [
       {
         "letter": "A",
@@ -5837,7 +5836,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 250,
-    "question": "Microsoft 365 E5 サブスクリプションをご利用で、Microsoft Intune を使用しています。企業所有のすべての Windows デバイスで、デバイス一括同期アクションを使用する必要があります。このアクションの対象にできるデバイスの最大数はいくつですか？ A. 25 台 B. 50 台 C. 100 台 D. 500 台 E. 1000 台 回答の候補を表示 回答を非表示 回答の候補: C 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションをご利用で、Microsoft Intune を使用しています。企業所有のすべての Windows デバイスで、デバイス一括同期アクションを使用する必要があります。このアクションの対象にできるデバイスの最大数はいくつですか？",
     "choices": [
       {
         "letter": "A",
@@ -5861,7 +5860,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 251,
-    "question": "Microsoft 365 E5 サブスクリプションを所有しており、Microsoft Intune Suite を使用しています。Intune を使用して修復スクリプト パッケージを実行する予定です。Microsoft Intune 管理センターで最初に行うべきことは何ですか？ A. プロセッサ構成で Windows 診断データを有効にする。B. Windows ライセンス認証を有効にする。C. 派生資格情報の設定を構成する。D. Windows エンタープライズ証明書をアップロードする。 回答の候補を表示 回答を非表示 回答の候補: B 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションを所有しており、Microsoft Intune Suite を使用しています。Intune を使用して修復スクリプト パッケージを実行する予定です。Microsoft Intune 管理センターで最初に行うべきことは何ですか？",
     "choices": [
       {
         "letter": "A",
@@ -5885,7 +5884,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 252,
-    "question": "Microsoft 365 E5 サブスクリプションをご利用です。Android Enterprise デバイス用の Microsoft Intune 登録プロファイルがあり、以下の設定になっています。• 名前: Profile1 • トークンの種類: 企業所有、フルマネージド Profile1 を使用して、Intune に新しい Android デバイスを登録する必要があります。デバイスの登録には何を使用すればよいですか? A. QR コード B. ポータル サイト アプリ C. Microsoft Authenticator アプリ D. Intune アプリ 回答の候補を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションをご利用です。Android Enterprise デバイス用の Microsoft Intune 登録プロファイルがあり、以下の設定になっています。• 名前: Profile1 • トークンの種類: 企業所有、フルマネージド Profile1 を使用して、Intune に新しい Android デバイスを登録する必要があります。デバイスの登録には何を使用すればよいですか?",
     "choices": [
       {
         "letter": "A",
@@ -5909,7 +5908,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 253,
-    "question": "Office 365 向け Microsoft Defender を使用しています。攻撃シミュレーションキャンペーンを自動化する予定です。シミュレーションに失敗したユーザーは、シミュレーション結果に基づいて追加のトレーニングを受ける必要があります。シミュレーション後、ユーザーがトレーニングを利用できる最大日数は？ A. 7日 B. 15日 C. 30日 D. 45日 回答例を表示 回答を隠す 回答例: C 🗳️",
+    "question": "Office 365 向け Microsoft Defender を使用しています。攻撃シミュレーションキャンペーンを自動化する予定です。シミュレーションに失敗したユーザーは、シミュレーション結果に基づいて追加のトレーニングを受ける必要があります。シミュレーション後、ユーザーがトレーニングを利用できる最大日数は？",
     "choices": [
       {
         "letter": "A",
@@ -5993,7 +5992,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 257,
-    "question": "Windows 11デバイスを含むMicrosoft 365 E5サブスクリプションをご利用です。すべてのデバイスはMicrosoft Defender for Endpointにオンボードされています。デバイスの構成を業界標準のベンチマークと比較する必要があります。どのベンチマークを使用すればよいでしょうか？A. 攻撃対象領域マップ B. イベント C. セキュリティベースライン評価 D. イニシアチブ 推奨回答を表示 回答を隠す 推奨回答: C 🗳️",
+    "question": "Windows 11デバイスを含むMicrosoft 365 E5サブスクリプションをご利用です。すべてのデバイスはMicrosoft Defender for Endpointにオンボードされています。デバイスの構成を業界標準のベンチマークと比較する必要があります。どのベンチマークを使用すればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -6041,7 +6040,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 259,
-    "question": "Microsoft 365 E5 サブスクリプションを所有しており、Microsoft Defender for Cloud Apps を使用しています。Cloud Discovery で検出されたすべてのアプリのセキュリティ監査を実施する予定です。監査対象となったアプリを追跡する必要があります。監査対象アプリの一覧をクラウド アプリ カタログに表示できるソリューションが必要です。どうすればよいでしょうか？ A. 各アプリにカスタム アプリ タグを適用する。B. アプリの条件付きアクセス制御を展開する。C. 各アプリを重要な資産として定義する。D. Cloud Discovery スナップショット レポートを生成する。E. アプリ ガバナンスを有効にする。 推奨回答を表示 回答を非表示 推奨回答: A 🗳️",
+    "question": "Microsoft 365 E5 サブスクリプションを所有しており、Microsoft Defender for Cloud Apps を使用しています。Cloud Discovery で検出されたすべてのアプリのセキュリティ監査を実施する予定です。監査対象となったアプリを追跡する必要があります。監査対象アプリの一覧をクラウド アプリ カタログに表示できるソリューションが必要です。どうすればよいでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -6133,7 +6132,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 263,
-    "question": "シミュレーション - ユーザー名とパスワード - 必要に応じて次のログイン資格情報を使用します。ユーザー名を入力するには、[サインイン] ボックスにカーソルを置き、以下のユーザー名を選択します。パスワードを入力するには、[パスワードの入力] ボックスにカーソルを置き、以下のパスワードを選択します。Microsoft 365 ユーザー名: [email protected] Microsoft 365 パスワード: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai Microsoft Edge ブラウザーまたは Microsoft 365 ポータルが正常に読み込まれない場合は、タスク バーから Microsoft Edge ブラウザー アイコンを選択し、URL「https://portal.office.com」を入力して Enter キーを押します。次の情報は、テクニカル サポートのみを目的としています:ラボ インスタンス: 48262079 - Microsoft Intune に登録されているすべての Windows 10 以降のデバイスで BitLocker ドライブ暗号化 (BitLocker) が有効になっているかどうかを検証するためのコンプライアンス ポリシーを作成する必要があります。回答の候補を表示回答を非表示",
+    "question": "シミュレーション - ユーザー名とパスワード - 必要に応じて次のログイン資格情報を使用します。ユーザー名を入力するには、[サインイン] ボックスにカーソルを置き、以下のユーザー名を選択します。パスワードを入力するには、[パスワードの入力] ボックスにカーソルを置き、以下のパスワードを選択します。Microsoft 365 ユーザー名: [email protected] Microsoft 365 パスワード: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai Microsoft Edge ブラウザーまたは Microsoft 365 ポータルが正常に読み込まれない場合は、タスク バーから Microsoft Edge ブラウザー アイコンを選択し、URL「https://portal.office.com」を入力して Enter キーを押します。次の情報は、テクニカル サポートのみを目的としています:ラボ インスタンス: 48262079 - Microsoft Intune に登録されているすべての Windows 10 以降のデバイスで BitLocker ドライブ暗号化 (BitLocker) が有効になっているかどうかを検証するためのコンプライアンス ポリシーを作成する必要があります。",
     "choices": [],
     "answer": "",
     "images": [
@@ -6145,7 +6144,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 264,
-    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問は、問題に対する独自の解決策を提示します。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。Microsoft 365 E5 サブスクリプションがあります。サブスクリプションには、Microsoft Entra に参加し、Microsoft Intune に登録されているデバイスが含まれています。User1 という名前のユーザーを作成します。User1 が Intune を使用して BitLocker 回復キーをローテーションできるようにする必要があります。解決策: Microsoft Entra 管理センターから、クラウド デバイス管理者の役割を User1 に割り当てます。これは目標を満たしていますか? A. はい B. いいえ 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "注: このセクションには、同じシナリオと問題に関する 1 つ以上の質問セットが含まれています。各質問は、問題に対する独自の解決策を提示します。解決策が定められた目標を満たしているかどうかを判断する必要があります。セット内の複数の解決策が問題を解決できる場合があります。また、セット内のどの解決策も問題を解決できない可能性もあります。このセクションの質問に回答した後は、戻ることはできません。そのため、これらの質問はレビュー画面に表示されません。Microsoft 365 E5 サブスクリプションがあります。サブスクリプションには、Microsoft Entra に参加し、Microsoft Intune に登録されているデバイスが含まれています。User1 という名前のユーザーを作成します。User1 が Intune を使用して BitLocker 回復キーをローテーションできるようにする必要があります。解決策: Microsoft Entra 管理センターから、クラウド デバイス管理者の役割を User1 に割り当てます。これは目標を満たしていますか?",
     "choices": [
       {
         "letter": "A",
@@ -6181,7 +6180,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 266,
-    "question": "シミュレーション - ユーザー名とパスワード - 必要に応じて次のログイン資格情報を使用します。 ユーザー名を入力するには、[サインイン] ボックスにカーソルを置き、以下のユーザー名を選択します。 パスワードを入力するには、[パスワードの入力] ボックスにカーソルを置き、以下のパスワードを選択します。 Microsoft 365 ユーザー名: [email protected] Microsoft 365 パスワード: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai Microsoft Edge ブラウザーまたは Microsoft 365 ポータルが正常に読み込まれない場合は、タスク バーから Microsoft Edge ブラウザー アイコンを選択し、URL「https://portal.office.com」を入力して、Enter キーを押します。 次の情報は、テクニカル サポートのみを目的としています: ラボ インスタンス: 48262079 - sg-Engineering というグループのメンバーが Windows デバイスを Microsoft Entra に参加させるときに、デバイスが Microsoft Intune に自動的に登録されるようにする必要があります。提案された回答を表示 回答を非表示 提案された回答:",
+    "question": "シミュレーション - ユーザー名とパスワード - 必要に応じて次のログイン資格情報を使用します。 ユーザー名を入力するには、[サインイン] ボックスにカーソルを置き、以下のユーザー名を選択します。 パスワードを入力するには、[パスワードの入力] ボックスにカーソルを置き、以下のパスワードを選択します。 Microsoft 365 ユーザー名: [email protected] Microsoft 365 パスワード: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai Microsoft Edge ブラウザーまたは Microsoft 365 ポータルが正常に読み込まれない場合は、タスク バーから Microsoft Edge ブラウザー アイコンを選択し、URL「https://portal.office.com」を入力して、Enter キーを押します。 次の情報は、テクニカル サポートのみを目的としています: ラボ インスタンス: 48262079 - sg-Engineering というグループのメンバーが Windows デバイスを Microsoft Entra に参加させるときに、デバイスが Microsoft Intune に自動的に登録されるようにする必要があります。",
     "choices": [],
     "answer": "",
     "images": [
@@ -6193,7 +6192,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 267,
-    "question": "HOTSPOT - 次の表に示すデバイスを含むMicrosoft 365 E5サブスクリプションがあります。すべてのデバイスはMicrosoft Intuneに登録されています。デバイスには、次の表に示すようにアプリがインストールされています。Intuneで、次の設定を持つPolicy1という名前のアプリ構成ポリシーを作成します。• デバイス登録の種類: 管理対象アプリ • 対象ポリシー: すべてのMicrosoftアプリ • 割り当て o 含めるグループ: Group1 o 除外するグループ: Group2 次の各ステートメントについて、該当する場合は「はい」を選択します。それ以外の場合は「いいえ」を選択します。注: 正しい選択は1点の価値があります。 回答の候補を表示 回答を非表示 回答の候補:",
+    "question": "HOTSPOT - 次の表に示すデバイスを含むMicrosoft 365 E5サブスクリプションがあります。すべてのデバイスはMicrosoft Intuneに登録されています。デバイスには、次の表に示すようにアプリがインストールされています。Intuneで、次の設定を持つPolicy1という名前のアプリ構成ポリシーを作成します。• デバイス登録の種類: 管理対象アプリ • 対象ポリシー: すべてのMicrosoftアプリ • 割り当て o 含めるグループ: Group1 o 除外するグループ: Group2 次の各ステートメントについて、該当する場合は「はい」を選択します。それ以外の場合は「いいえ」を選択します。注: 正しい選択は1点の価値があります。",
     "choices": [],
     "answer": "",
     "images": [
@@ -6277,7 +6276,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 271,
-    "question": "Microsoft 365 サブスクリプションがあり、Microsoft Intune スイートを使用しています。次の表に示すデバイスを所有しています。すべてのデバイスが Intune に登録されています。デバイスクエリを使用してクエリを実行できるデバイスはどれですか？ A. デバイス1 のみ B. デバイス1 とデバイス2 のみ C. デバイス1、デバイス2、デバイス3 のみ D. デバイス1、デバイス2、デバイス4 のみ E. デバイス1、デバイス2、デバイス3、デバイス4 推奨回答を表示 回答を非表示 推奨回答: B 🗳️",
+    "question": "Microsoft 365 サブスクリプションがあり、Microsoft Intune スイートを使用しています。次の表に示すデバイスを所有しています。すべてのデバイスが Intune に登録されています。デバイスクエリを使用してクエリを実行できるデバイスはどれですか？",
     "choices": [
       {
         "letter": "A",
@@ -6335,7 +6334,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 273,
-    "question": "Microsoft 365 サブスクリプションがあり、Microsoft Intune を使用しています。個人用 Android デバイスにモバイル アプリケーション管理 (MAM) 用の Microsoft Tunnel を実装する必要があります。次の操作を実行します。• 管理対象デバイス用に Microsoft Tunnel を構成する。• ユーザー デバイスが Tunnel for MAM の前提条件を満たしていることを確認する。• Microsoft Defender と Microsoft Edge のアプリ構成ポリシーを作成する。次に何を構成する必要がありますか? A. アプリ保護ポリシー B. Android Enterprise デバイス用のカスタム プロファイル C. 条件付きアクセス ポリシー D. Android Enterprise デバイス用の VPN プロファイル 回答の候補を表示 回答を非表示 回答の候補: A 🗳️",
+    "question": "Microsoft 365 サブスクリプションがあり、Microsoft Intune を使用しています。個人用 Android デバイスにモバイル アプリケーション管理 (MAM) 用の Microsoft Tunnel を実装する必要があります。次の操作を実行します。• 管理対象デバイス用に Microsoft Tunnel を構成する。• ユーザー デバイスが Tunnel for MAM の前提条件を満たしていることを確認する。• Microsoft Defender と Microsoft Edge のアプリ構成ポリシーを作成する。次に何を構成する必要がありますか?",
     "choices": [
       {
         "letter": "A",
@@ -6399,7 +6398,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 276,
-    "question": "500台のAndroidデバイスを含むMicrosoft 365サブスクリプションを所有しています。これらのデバイスはMicrosoft Intuneを使用して管理されています。Android FOTAを使用して、これらのデバイスのソフトウェア更新プログラムを管理できることを確認する必要があります。まず何をすべきでしょうか？A. コンプライアンスポリシーを作成する。B. コンプライアンスパートナーを追加する。C. コネクタを構成する。D. 派生資格情報を追加する。推奨回答を表示 回答を隠す 推奨回答: C 🗳️",
+    "question": "500台のAndroidデバイスを含むMicrosoft 365サブスクリプションを所有しています。これらのデバイスはMicrosoft Intuneを使用して管理されています。Android FOTAを使用して、これらのデバイスのソフトウェア更新プログラムを管理できることを確認する必要があります。まず何をすべきでしょうか？",
     "choices": [
       {
         "letter": "A",
@@ -6423,7 +6422,7 @@ export const quizData: QuizItem[] = [
   },
   {
     "id": 277,
-    "question": "シミュレーション - ユーザー名とパスワード - 必要に応じて次のログイン資格情報を使用します。 ユーザー名を入力するには、[サインイン] ボックスにカーソルを置き、以下のユーザー名を選択します。 パスワードを入力するには、[パスワードの入力] ボックスにカーソルを置き、以下のパスワードを選択します。 Microsoft 365 ユーザー名: [email protected] Microsoft 365 パスワード: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai Microsoft Edge ブラウザーまたは Microsoft 365 ポータルが正常に読み込まれない場合は、タスク バーから Microsoft Edge ブラウザー アイコンを選択し、URL「https://portal.office.com」を入力して、Enter キーを押します。 次の情報は、テクニカル サポートのみを目的としています: ラボ インスタンス: 48262079 - sg-IT という名前のグループの Windows 10 以降のデバイスでシングル アプリの全画面キオスク モードを有効にする構成プロファイルを作成する必要があります。 ソリューションでは、KioskUser という名前のローカル ユーザーが自動的にサインインし、Microsoft Edge で https://bing.com ホームページが表示される必要があります。提案された回答を表示 回答を非表示 提案された回答:",
+    "question": "シミュレーション - ユーザー名とパスワード - 必要に応じて次のログイン資格情報を使用します。 ユーザー名を入力するには、[サインイン] ボックスにカーソルを置き、以下のユーザー名を選択します。 パスワードを入力するには、[パスワードの入力] ボックスにカーソルを置き、以下のパスワードを選択します。 Microsoft 365 ユーザー名: [email protected] Microsoft 365 パスワード: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai Microsoft Edge ブラウザーまたは Microsoft 365 ポータルが正常に読み込まれない場合は、タスク バーから Microsoft Edge ブラウザー アイコンを選択し、URL「https://portal.office.com」を入力して、Enter キーを押します。 次の情報は、テクニカル サポートのみを目的としています: ラボ インスタンス: 48262079 - sg-IT という名前のグループの Windows 10 以降のデバイスでシングル アプリの全画面キオスク モードを有効にする構成プロファイルを作成する必要があります。 ソリューションでは、KioskUser という名前のローカル ユーザーが自動的にサインインし、Microsoft Edge で https://bing.com ホームページが表示される必要があります。",
     "choices": [],
     "answer": "",
     "images": [
